@@ -1,4 +1,9 @@
+## This is source file for README.md
+## DO NOT TRY TO RUN.
+## Sorry but it may use a 'proprietary tools'
+## I have no time to polish and publish.
 
+echo "
 
 
 # ui-testing
@@ -12,7 +17,7 @@ Experiments and reviews of various ui testing frameworks
 	mkdir ui-testing
 	cd ui-testing
 
-	echo '{ name:ui-testing}' > package.json
+	echo '{ "name":"ui-testing"}' > package.json
 
 	npm install --save selenium-webdriver
 	npm install --save wd
@@ -24,7 +29,7 @@ Experiments and reviews of various ui testing frameworks
 
 	git remote add origin https://github.com/ainthek/ui-testing.git
 
-	echo node_modules > .gitignore
+	echo "node_modules" > .gitignore
 
 # Basic info
 
@@ -89,13 +94,17 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Sun Feb  8 13:40:01 CET 2015
+generated $(date)
 
 |module| downloads in the last month | 
 |------|-----------------------------|
-|selenium-webdriver|380678|
-|webdriverio|7713|
-|wd|92636|
-|nightwatch|27843|
-|intern|8167|
-
+$(
+	(
+	npm_stats selenium-webdriver;
+	npm_stats webdriverio;
+	npm_stats wd;
+	npm_stats nightwatch;
+	npm_stats intern;
+	) | md-table '\;'
+)
+"
