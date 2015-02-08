@@ -10,8 +10,6 @@ echo "
 
 Experiments and reviews of various ui testing frameworks
 
-
-
 ## How this repo was setup
   
 	mkdir ui-testing
@@ -38,10 +36,9 @@ Texts come from their web sites
 ## selenium-webdriver
 The official WebDriver JavaScript bindings from the Selenium project
 
-
-
 - <https://www.npmjs.com/package/selenium-webdriver>
 - <https://code.google.com/p/selenium/>
+
 
 ## wd
 WebDriver/Selenium 2 node.js client
@@ -107,4 +104,31 @@ $(
 	npm_stats intern;
 	) | md-table '\;'
 )
+
+## Modules used
+
+$(
+	for m in $(ls -1 node_modules)
+	do
+		pushd node_modules/$m > /dev/null 
+
+		echo "### $m"
+		echo ""
+		list_node_modules | list_node_modules_filter_nested | list_node_modules_package_json  | list_node_modules_doc
+		echo ""
+		
+		list_node_modules | list_node_modules_filter_nested | awk-basename | sufix "\tX" > ../../$m.modules
+		popd >/dev/null
+
+
+	done
+)
+
+## Matrix
+
+$(
+	join-paste *.modules | md-table | md-table-header "|" | sed "3d" | sed "s;\.modules;;g"
+	rm *.modules
+)
+
 "
