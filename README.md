@@ -98,7 +98,7 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Mon Feb  9 18:15:53 CEST 2015
+generated Tue Feb 10 00:56:32 CET 2015
 
 |module| downloads in the last month | 
 |------|-----------------------------|
@@ -116,12 +116,6 @@ generated Mon Feb  9 18:15:53 CEST 2015
 </div>
 
 ## Modules used
-
-### browserstack-webdriver
-
-|name|version|description|path|
-|----|-------|-----------|----|
-|[keep-alive-agent](https://github.com/ceejbot/keep-alive-agent)|0.0.1|a keep-alive agent for http and https|./node_modules/keep-alive-agent/package.json|
 
 ### intern
 
@@ -144,7 +138,7 @@ generated Mon Feb  9 18:15:53 CEST 2015
 |[chokidar](https://github.com/paulmillr/chokidar)|0.12.6|A neat wrapper around node.js fs.watch / fs.watchFile / fsevents.|./node_modules/chokidar/package.json|
 |[colors](https://github.com/Marak/colors.js)|0.6.2|get colors in your node.js console like what|./node_modules/colors/package.json|
 |[connect](https://github.com/senchalabs/connect)|2.26.6|High performance middleware framework|./node_modules/connect/package.json|
-|[di]()|0.0.1|Dependency Injection for Node.js. Heavily inspired by AngularJS.|./node_modules/di/package.json|
+|[di](https://github.com/vojtajina/node-di)|0.0.1|Dependency Injection for Node.js. Heavily inspired by AngularJS.|./node_modules/di/package.json|
 |[glob](https://github.com/isaacs/node-glob)|3.2.11|a little globber|./node_modules/glob/package.json|
 |[graceful-fs](https://github.com/isaacs/node-graceful-fs)|2.0.3|A drop-in replacement for fs, making various improvements.|./node_modules/graceful-fs/package.json|
 |[http-proxy-examples]()|0.0.0|packages required to run the examples|./node_modules/http-proxy/examples/package.json|
@@ -159,36 +153,6 @@ generated Mon Feb  9 18:15:53 CEST 2015
 |[socket.io](http://socket.io)|0.9.16|Real-time apps made cross-browser & easy with a WebSocket-like API|./node_modules/socket.io/package.json|
 |[source-map](https://github.com/mozilla/source-map)|0.1.43|Generates and consumes source maps|./node_modules/source-map/package.json|
 |[useragent](https://github.com/3rd-Eden/useragent)|2.0.10|Fastest, most accurate & effecient user agent string parser, uses Browserscope's research for parsing|./node_modules/useragent/package.json|
-
-### kommando
-
-|name|version|description|path|
-|----|-------|-----------|----|
-|[address]()|0.0.3|Get current machine IP, MAC and DNS servers.|./node_modules/address/package.json|
-|[async](https://github.com/caolan/async)|0.8.0|Higher-order functions and common patterns for asynchronous code|./node_modules/async/package.json|
-|[cabbie](https://github.com/ForbesLindesay/cabbie)|0.0.9|A webdriver client|./node_modules/cabbie/package.json|
-|[chai-as-promised](https://github.com/domenic/chai-as-promised)|4.1.1|Extends Chai with assertions about promises.|./node_modules/chai-as-promised/package.json|
-|[chai](http://chaijs.com)|1.10.0|BDD/TDD assertion library for node.js and the browser. Test framework agnostic.|./node_modules/chai/package.json|
-|[coffee-script](http://coffeescript.org)|1.9.0|Unfancy JavaScript|./node_modules/coffee-script/package.json|
-|[cucumber](http://github.com/cucumber/cucumber-js)|0.4.7|The official JavaScript implementation of Cucumber.|./node_modules/cucumber/package.json|
-|[freeport](https://github.com/daaku/nodejs-freeport)|1.0.4|Find a free port.|./node_modules/freeport/package.json|
-|[glob](https://github.com/isaacs/node-glob)|3.2.11|a little globber|./node_modules/glob/package.json|
-|[jasmine-node](https://github.com/mhevery/jasmine-node)|1.14.5|DOM-less simple JavaScript BDD testing framework for Node|./node_modules/jasmine-node/package.json|
-|[leadfoot](http://github.com/theintern/leadfoot)|1.2.1|Leadfoot. A JavaScript client library that brings cross-platform consistency to the Selenium WebDriver API.|./node_modules/leadfoot/package.json|
-|[lodash](http://lodash.com/)|2.4.1|A utility library delivering consistency, customization, performance, & extras.|./node_modules/lodash/package.json|
-|[mocha](https://github.com/visionmedia/mocha)|1.18.2|simple, flexible, fun test framework|./node_modules/mocha/package.json|
-|[nesh](http://danielgtaylor.github.io/nesh/)|1.5.1|An enhanced, extensible shell for Node.js|./node_modules/nesh/package.json|
-|[optimist](https://github.com/substack/node-optimist)|0.6.1|Light-weight option parsing with an argv hash. No optstrings attached.|./node_modules/optimist/package.json|
-|[saucelabs](https://github.com/holidayextras/node-saucelabs)|0.1.1|A wrapper around Sauce Labs REST API|./node_modules/saucelabs/package.json|
-|[selenium-webdriver](https://code.google.com/p/selenium/)|2.41.0|The official WebDriver JavaScript bindings from the Selenium project|./node_modules/selenium-webdriver/package.json|
-|[wd](https://github.com/admc/wd)|0.2.27|WebDriver/Selenium 2 node.js client|./node_modules/wd/package.json|
-|[webdrvr](https://github.com/uxebu/webdrvr)|2.41.0-0|NPM wrapper for Selenium Webdriver including Chromedriver / IEDriver / IOSDriver / Ghostdriver|./node_modules/webdrvr/package.json|
-
-### leadfoot
-
-|name|version|description|path|
-|----|-------|-----------|----|
-|[dojo]()|2.0.0-alpha4||./node_modules/dojo/package.json|
 
 ### nightwatch
 
@@ -228,7 +192,7 @@ generated Mon Feb  9 18:15:53 CEST 2015
 |[async](https://github.com/caolan/async)|0.9.0|Higher-order functions and common patterns for asynchronous code|./node_modules/async/package.json|
 |[chainit](https://github.com/vvo/chainit)|2.1.1|Turn an asynchronous JavaScript api into an asynchronous chainable JavaScript api.|./node_modules/chainit/package.json|
 |[css-parse](https://github.com/visionmedia/css-parse)|1.7.0|CSS parser|./node_modules/css-parse/package.json|
-|[css-value]()|0.0.1|CSS value parser|./node_modules/css-value/package.json|
+|[css-value](https://github.com/visionmedia/css-value)|0.0.1|CSS value parser|./node_modules/css-value/package.json|
 |[deepmerge](https://github.com/nrf110/deepmerge)|0.2.7|A library for deep (recursive) merging of Javascript objects|./node_modules/deepmerge/package.json|
 |[pragma-singleton](https://github.com/pragma-dudes/pragma-singleton)|1.0.3|Singleton design pattern implementation which easy to use|./node_modules/pragma-singleton/package.json|
 |[q](https://github.com/kriskowal/q)|1.1.2|A library for promises (CommonJS/Promises/A,B,D)|./node_modules/q/package.json|
@@ -239,67 +203,53 @@ generated Mon Feb  9 18:15:53 CEST 2015
 
 ## Matrix
 
-|index|browserstack-webdriver|intern|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
-|-----|------------------------------|--------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
-|address||||X||||||
-|adm-zip|||||||X|||
-|archiver||||||||X|X|
-|async||||X||||X|X|
-|cabbie||||X||||||
-|coffee-script||||X||||||
-|colors|||X|||||||
-|connect|||X|||||||
-|css-parse|||||||||X|
-|css-value|||||||||X|
-|cucumber||||X||||||
-|deepmerge|||||||||X|
-|di|||X|||||||
-|diff||X||||||||
-|digdug||X||||||||
-|dojo||X|||X|||||
-|ejs||||||X||||
-|examples|||X|||||||
-|freeport||||X||||||
-|glob|||X|X||||||
-|graceful-fs|||X|||||||
-|grunt||||||X||||
-|http-proxy|||X|||||||
-|chai||X||X||||||
-|chai-as-promised||||X||||||
-|chainit|||||||||X|
-|charm||X||||||||
-|chokidar|||X|||||||
-|istanbul||X||||||||
-|jasmine-node||||X||||||
-|keep-alive-agent|X|||||||||
-|leadfoot||X||X||||||
-|lodash|||X|X||||X||
-|log4js|||X|||||||
-|mime|||X|||||||
-|minimatch|||X|||X||||
-|mkpath||||||X||||
-|mocha||||X||||||
-|nesh||||X||||||
-|nodemod||X||||||||
-|optimist|||X|X||X||||
-|pragma-singleton|||||||||X|
-|q|||X|||||X|X|
-|request||||||||X|X|
-|rgb2hex|||||||||X|
-|rimraf|||X|||||||
-|saucelabs||||X||||||
-|selenium-webdriver||||X||||||
-|socket.io|||X|||||||
-|source-map||X|X|||||||
-|tmp|||||||X|||
-|underscore.string||||||||X||
-|url|||||||||X|
-|useragent|||X|||||||
-|vargs||||||||X||
-|wd||||X||||||
-|webdrvr||||X||||||
-|wgxpath|||||||||X|
-|xml2js|||||||X|||
+|index|intern|karma|nightwatch|selenium-webdriver|wd|webdriverio|
+|-----|--------------|-------------|------------------|--------------------------|----------|-------------------|
+|adm-zip||||X|||
+|archiver|||||X|X|
+|async|||||X|X|
+|chai|X||||||
+|chainit||||||X|
+|charm|X||||||
+|chokidar||X|||||
+|colors||X|||||
+|connect||X|||||
+|css-parse||||||X|
+|css-value||||||X|
+|deepmerge||||||X|
+|di||X|||||
+|diff|X||||||
+|digdug|X||||||
+|dojo|X||||||
+|ejs|||X||||
+|examples||X|||||
+|glob||X|||||
+|graceful-fs||X|||||
+|grunt|||X||||
+|http-proxy||X|||||
+|istanbul|X||||||
+|leadfoot|X||||||
+|lodash||X|||X||
+|log4js||X|||||
+|mime||X|||||
+|minimatch||X|X||||
+|mkpath|||X||||
+|nodemod|X||||||
+|optimist||X|X||||
+|pragma-singleton||||||X|
+|q||X|||X|X|
+|request|||||X|X|
+|rgb2hex||||||X|
+|rimraf||X|||||
+|socket.io||X|||||
+|source-map|X|X|||||
+|tmp||||X|||
+|underscore.string|||||X||
+|url||||||X|
+|useragent||X|||||
+|vargs|||||X||
+|wgxpath||||||X|
+|xml2js||||X|||
 
 
 ## Comparison
@@ -327,18 +277,30 @@ Subjective Rankings:
 
 ### Standalone Server
 How much manual work is needed to run 
-tests agains browsers requiring selenium-server-standalone-*.jar.
-Download, confugure and instantiate support in each 'framework'.
+tests against browsers that require selenium-server-standalone-*.jar.
+Download, configure and instantiate support in each 'framework'.
 
 #### selenium-webdriver - 1 -
 
 - (cons) 'To run the tests, you will need to download a copy of the ChromeDriver and make sure it can be found on your PATH.'
-- (cons) They don't event updated docs 9nor npm nor wiki) after implementation of direct Firefox support.
+- (cons) They don't event updated docs (nor npm nor wiki) after implementation of direct Firefox support.
+- However after some downloading of related and compatible version for each of your OSes, you can have it running in lt; 30 mins for all browsers you need.
+
+	TODO: donwload sample code sample
 
 #### intern
 
 - why using pretty old 'selenium-version': '2.41.0' in the example config ?
 - based on [this blog post](http://www.sitepen.com/blog/2014/05/23/how-can-i-debug-intern-tests/) you must download all manually as well
+
+#### kommand/vebdrvr
+Actually 'installing'  Selenium, Chromedriver, IEDriver and PhantomJS is not node by kommando, but by
+[vebrdvr](https://github.com/uxebu/webdrvr) module.
+
+#### Grunt and other tasks 
+to automate download of Standalone Server and Drivers 
+
+TODO:
 
 ### Documentation - quick start testing with local browsers
 Here I ry to evaluate how much time and browsing it took to start first functional test 
@@ -348,9 +310,10 @@ in local browser. Intern is in disadvantage here, their docs cover bit more so o
 running sample from npm readme with native FF support they have now, took under 10 seconds, 
 if you have FF installed.
 
-#### kommando
+#### kommando - 3 -
+
 Running REPL and starting browser (FF, chrome, Opera) right after install requires no reading of any docs.
-This is the main purpose of the module BTW. 
+This is the main purpose of the kommando module (even if implemented using vebdrvr). 
 
 	$ ./node_modules/.bin/kommando --runner repl --browser chrome
 	Starting Selenium server ...
@@ -359,18 +322,13 @@ This is the main purpose of the module BTW.
 	"kommando" / "kommando.browser" provide access to the running browser instance
 	kommando>
 
-##### kommand/vebdrvr
-Actually 'installing'  Selenium, Chromedriver, IEDriver and PhantomJS is not bad by kommando, but by
-[vebrdvr](https://github.com/uxebu/webdrvr) module.
-
-
 #### intern
 
 After 30 minutes of quick searching, I have found this topic:
 [Running-your-own-WebDriver-server](https://github.com/theintern/intern/wiki/Running-your-own-WebDriver-server).
 After another 30 minutes I have still no functional testing sample running.
-Another 30mins, cloned tutorial, donwloaded full tutorial cannot make tests/functiona to run, no errors, just not run.
+Another 30mins, cloned tutorial, downloaded full tutorial cannot make tests/functional to run, no errors, just not run.
 
-Gave up, [asking for help](https://github.com/theintern/intern/issues/347)
+Gave up, [asking for help ](https://github.com/theintern/intern/issues/347)
 
 
