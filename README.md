@@ -86,15 +86,45 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Sun Feb  8 18:54:16 CET 2015
+generated Mon Feb  9 10:00:12 CEST 2015
 
 |module| downloads in the last month | 
 |------|-----------------------------|
-|selenium-webdriver|380678|
-|webdriverio|7713|
-|wd|92636|
-|nightwatch|27843|
-|intern|8167|
+|selenium-webdriver|374945|
+|webdriverio|7539|
+|wd|89427|
+|nightwatch|26239|
+|karma|779799|
+|intern|7826|
+
+<svg id="chart" width="800" height="650"><g class="display" transform="translate(80,58)"><g class="gridline" transform="translate(0,0)"><g class="tick" style="opacity: 1;" transform="translate(0,392)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,341.7306357151009)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,291.46127143020186)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,241.19190714530285)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,190.92254286040378)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,140.65317857550468)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,90.38381429060566)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,40.11445000570659)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><path class="domain" d="M0,0H0V392H0"></path></g><rect class="bar" x="17.000000000000004" y="203.51753208198525" height="188.48246791801475" width="79.33333333333333" style="fill: #1f77b4;"></rect><rect class="bar" x="130.33333333333334" y="388.2101926265615" height="3.7898073734385207" width="79.33333333333333" style="fill: #aec7e8;"></rect><rect class="bar" x="243.66666666666666" y="347.04561560094334" height="44.954384399056664" width="79.33333333333333" style="fill: #ff7f0e;"></rect><rect class="bar" x="357" y="378.8098215052853" height="13.1901784947147" width="79.33333333333333" style="fill: #ffbb78;"></rect><rect class="bar" x="470.3333333333333" y="0" height="392" width="79.33333333333333" style="fill: #2ca02c;"></rect><rect class="bar" x="583.6666666666666" y="388.0659195510638" height="3.934080448936186" width="79.33333333333333" style="fill: #98df8a;"></rect><text class="bar-label" text-anchor="middle" x="56.666666666666664" dx="0" y="203.51753208198525" dy="-6">374945</text><text class="bar-label" text-anchor="middle" x="170" dx="0" y="388.2101926265615" dy="-6">7539</text><text class="bar-label" text-anchor="middle" x="283.3333333333333" dx="0" y="347.04561560094334" dy="-6">89427</text><text class="bar-label" text-anchor="middle" x="396.6666666666667" dx="0" y="378.8098215052853" dy="-6">26239</text><text class="bar-label" text-anchor="middle" x="510" dx="0" y="0" dy="-6">779799</text><text class="bar-label" text-anchor="middle" x="623.3333333333333" dx="0" y="388.0659195510638" dy="-6">7826</text><g class="x axis" transform="translate(0,392)"><g class="tick" style="opacity: 1;" transform="translate(56.666666666666664,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">selenium-webdriver</text></g><g class="tick" style="opacity: 1;" transform="translate(170,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">webdriverio</text></g><g class="tick" style="opacity: 1;" transform="translate(283.3333333333333,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">wd</text></g><g class="tick" style="opacity: 1;" transform="translate(396.6666666666667,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">nightwatch</text></g><g class="tick" style="opacity: 1;" transform="translate(510,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">karma</text></g><g class="tick" style="opacity: 1;" transform="translate(623.3333333333333,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">intern</text></g><path class="domain" d="M0,6V0H680V6"></path><text x="0" y="0" style="text-anchor: middle; font-weight: bold;" transform="translate(340,95)"></text></g><g class="y axis" transform="translate(0,0)"><g class="tick" style="opacity: 1;" transform="translate(0,392)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">0</text></g><g class="tick" style="opacity: 1;" transform="translate(0,341.7306357151009)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">100,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,291.46127143020186)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">200,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,241.19190714530285)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">300,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,190.92254286040378)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">400,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,140.65317857550468)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">500,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,90.38381429060566)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">600,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,40.11445000570659)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">700,000</text></g><path class="domain" d="M-6,0H0V392H-6"></path><text x="0" y="0" style="text-anchor: middle; font-weight: bold;" transform="translate(-40,196) rotate(-90)"></text></g></g><defs><style type="text/css">
+#chart{
+	background-color: #F5F2EB;
+	border: 1px solid #CCC;
+	font-size: 12px;
+}
+.bar{
+	fill: purple;
+	shape-rendering: crispEdges;
+}
+.bar-label{
+	fill: #000;
+	text-anchor: middle;
+	font-size: 10px;
+}
+.axis path,
+.axis line{
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+.gridline path,
+.gridline line{
+	fill: none;
+	stroke: #ccc;
+	shape-rendering: crispEdges;
+}
+</style></defs></svg>
 
 ## Modules used
 
@@ -119,7 +149,7 @@ generated Sun Feb  8 18:54:16 CET 2015
 |[chokidar](https://github.com/paulmillr/chokidar)|0.12.6|A neat wrapper around node.js fs.watch / fs.watchFile / fsevents.|./node_modules/chokidar/package.json|
 |[colors](https://github.com/Marak/colors.js)|0.6.2|get colors in your node.js console like what|./node_modules/colors/package.json|
 |[connect](https://github.com/senchalabs/connect)|2.26.6|High performance middleware framework|./node_modules/connect/package.json|
-|[di](https://github.com/vojtajina/node-di)|0.0.1|Dependency Injection for Node.js. Heavily inspired by AngularJS.|./node_modules/di/package.json|
+|[di]()|0.0.1|Dependency Injection for Node.js. Heavily inspired by AngularJS.|./node_modules/di/package.json|
 |[glob](https://github.com/isaacs/node-glob)|3.2.11|a little globber|./node_modules/glob/package.json|
 |[graceful-fs](https://github.com/isaacs/node-graceful-fs)|2.0.3|A drop-in replacement for fs, making various improvements.|./node_modules/graceful-fs/package.json|
 |[http-proxy-examples]()|0.0.0|packages required to run the examples|./node_modules/http-proxy/examples/package.json|
@@ -173,7 +203,7 @@ generated Sun Feb  8 18:54:16 CET 2015
 |[async](https://github.com/caolan/async)|0.9.0|Higher-order functions and common patterns for asynchronous code|./node_modules/async/package.json|
 |[chainit](https://github.com/vvo/chainit)|2.1.1|Turn an asynchronous JavaScript api into an asynchronous chainable JavaScript api.|./node_modules/chainit/package.json|
 |[css-parse](https://github.com/visionmedia/css-parse)|1.7.0|CSS parser|./node_modules/css-parse/package.json|
-|[css-value](https://github.com/visionmedia/css-value)|0.0.1|CSS value parser|./node_modules/css-value/package.json|
+|[css-value]()|0.0.1|CSS value parser|./node_modules/css-value/package.json|
 |[deepmerge](https://github.com/nrf110/deepmerge)|0.2.7|A library for deep (recursive) merging of Javascript objects|./node_modules/deepmerge/package.json|
 |[pragma-singleton](https://github.com/pragma-dudes/pragma-singleton)|1.0.3|Singleton design pattern implementation which easy to use|./node_modules/pragma-singleton/package.json|
 |[q](https://github.com/kriskowal/q)|1.1.2|A library for promises (CommonJS/Promises/A,B,D)|./node_modules/q/package.json|
@@ -189,10 +219,6 @@ generated Sun Feb  8 18:54:16 CET 2015
 |adm-zip|n/a|n/a|n/a|X|n/a|n/a|
 |archiver|n/a|n/a|n/a|n/a|X|X|
 |async|n/a|n/a|n/a|n/a|X|X|
-|chai|X|n/a|n/a|n/a|n/a|n/a|
-|chainit|n/a|n/a|n/a|n/a|n/a|X|
-|charm|X|n/a|n/a|n/a|n/a|n/a|
-|chokidar|n/a|X|n/a|n/a|n/a|n/a|
 |colors|n/a|X|n/a|n/a|n/a|n/a|
 |connect|n/a|X|n/a|n/a|n/a|n/a|
 |css-parse|n/a|n/a|n/a|n/a|n/a|X|
@@ -208,6 +234,10 @@ generated Sun Feb  8 18:54:16 CET 2015
 |graceful-fs|n/a|X|n/a|n/a|n/a|n/a|
 |grunt|n/a|n/a|X|n/a|n/a|n/a|
 |http-proxy|n/a|X|n/a|n/a|n/a|n/a|
+|chai|X|n/a|n/a|n/a|n/a|n/a|
+|chainit|n/a|n/a|n/a|n/a|n/a|X|
+|charm|X|n/a|n/a|n/a|n/a|n/a|
+|chokidar|n/a|X|n/a|n/a|n/a|n/a|
 |istanbul|X|n/a|n/a|n/a|n/a|n/a|
 |leadfoot|X|n/a|n/a|n/a|n/a|n/a|
 |lodash|n/a|X|n/a|n/a|X|n/a|

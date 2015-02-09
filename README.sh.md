@@ -96,13 +96,20 @@ generated $(date)
 |module| downloads in the last month | 
 |------|-----------------------------|
 $(
-	(
+	s=$(
 	npm_stats selenium-webdriver;
 	npm_stats webdriverio;
 	npm_stats wd;
 	npm_stats nightwatch;
+	npm_stats karma;
 	npm_stats intern;
-	) | md-table '\;'
+	)
+
+	echo "$s" | md-table '\;'
+
+	echo ""
+	echo "$s" | awk -F";" '{print $2" "$1}' | ../data2chart/bin/chart bar
+	echo ""
 )
 
 ## Modules used
@@ -127,7 +134,7 @@ $(
 ## Matrix
 
 $(
-	join-paste *.modules | md-table | md-table-header "|" | sed "3d" | sed "s;\.modules;;g"
+	join-paste *.modules | md-table | md-table-header "|" | sed "3d" | sed "s;\.modules;;g" | sed "1 s;\.txt;;"
 	rm *.modules
 )
 
