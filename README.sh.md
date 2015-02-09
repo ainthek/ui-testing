@@ -108,7 +108,7 @@ $(
 	echo "$s" | md-table '\;'
 
 	echo ""
-	echo "$s" | awk -F";" '{print $2" "$1}' | ../data2chart/bin/chart bar
+	# echo "$s" | awk -F";" '{print $2" "$1}' | ../data2chart/bin/chart bar # FIXME: broken layout when published on github
 	echo ""
 )
 
