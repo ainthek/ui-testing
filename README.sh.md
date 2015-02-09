@@ -18,10 +18,13 @@ Experiments and reviews of various ui testing frameworks
 	echo '{ "name":"ui-testing"}' > package.json
 
 	npm install --save-dev selenium-webdriver
+	npm install --save-dev browserstack-webdriver
 	npm install --save-dev wd
 	npm install --save-dev webdriverio
+	npm install --save-dev kommando
 	npm install --save-dev nightwatch
 	npm install --save-dev karma
+	npm install --save-dev leadfoot
 	npm install --save-dev intern
 
 
@@ -72,6 +75,9 @@ UI automated testing framework powered by Node.js. It uses the Selenium WebDrive
 
 - <https://www.npmjs.com/package/nightwatch>
 
+## kommando
+Configurable cross browser functional / acceptance test launcher (using Webdriver)
+
 ## karma
 Spectacular Test Runner for JavaScript.
 
@@ -107,8 +113,11 @@ $(
 	npm_stats browserstack-webdriver;
 	npm_stats webdriverio;
 	npm_stats wd;
+	npm_stats kommando;
+	npm_stats webdrvr;
 	npm_stats nightwatch;
 	npm_stats karma;
+	npm_stats leadfoot;
 	npm_stats intern;
 	)
 
@@ -144,6 +153,11 @@ $(
 $(
 	join-paste *.modules | md-table | md-table-header "|" | sed "3d" | sed "s;n/a;;g" | sed "s;\.modules;;g" | sed "1 s;\.txt;;"
 	rm *.modules
+)
+
+
+$(
+	cat ./comparison.md | md-shift-header 1
 )
 
 "

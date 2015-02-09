@@ -13,10 +13,13 @@ Experiments and reviews of various ui testing frameworks
 	echo '{ name:ui-testing}' > package.json
 
 	npm install --save-dev selenium-webdriver
+	npm install --save-dev browserstack-webdriver
 	npm install --save-dev wd
 	npm install --save-dev webdriverio
+	npm install --save-dev kommando
 	npm install --save-dev nightwatch
 	npm install --save-dev karma
+	npm install --save-dev leadfoot
 	npm install --save-dev intern
 
 
@@ -67,6 +70,9 @@ UI automated testing framework powered by Node.js. It uses the Selenium WebDrive
 
 - <https://www.npmjs.com/package/nightwatch>
 
+## kommando
+Configurable cross browser functional / acceptance test launcher (using Webdriver)
+
 ## karma
 Spectacular Test Runner for JavaScript.
 
@@ -92,7 +98,7 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Mon Feb  9 17:09:58 CEST 2015
+generated Mon Feb  9 18:15:53 CEST 2015
 
 |module| downloads in the last month | 
 |------|-----------------------------|
@@ -100,8 +106,11 @@ generated Mon Feb  9 17:09:58 CEST 2015
 |browserstack-webdriver|2071|
 |webdriverio|7539|
 |wd|89427|
+|kommando|131|
+|webdrvr|147|
 |nightwatch|26239|
 |karma|779799|
+|leadfoot|8146|
 |intern|7826|
 <div>
 </div>
@@ -150,6 +159,36 @@ generated Mon Feb  9 17:09:58 CEST 2015
 |[socket.io](http://socket.io)|0.9.16|Real-time apps made cross-browser & easy with a WebSocket-like API|./node_modules/socket.io/package.json|
 |[source-map](https://github.com/mozilla/source-map)|0.1.43|Generates and consumes source maps|./node_modules/source-map/package.json|
 |[useragent](https://github.com/3rd-Eden/useragent)|2.0.10|Fastest, most accurate & effecient user agent string parser, uses Browserscope's research for parsing|./node_modules/useragent/package.json|
+
+### kommando
+
+|name|version|description|path|
+|----|-------|-----------|----|
+|[address]()|0.0.3|Get current machine IP, MAC and DNS servers.|./node_modules/address/package.json|
+|[async](https://github.com/caolan/async)|0.8.0|Higher-order functions and common patterns for asynchronous code|./node_modules/async/package.json|
+|[cabbie](https://github.com/ForbesLindesay/cabbie)|0.0.9|A webdriver client|./node_modules/cabbie/package.json|
+|[chai-as-promised](https://github.com/domenic/chai-as-promised)|4.1.1|Extends Chai with assertions about promises.|./node_modules/chai-as-promised/package.json|
+|[chai](http://chaijs.com)|1.10.0|BDD/TDD assertion library for node.js and the browser. Test framework agnostic.|./node_modules/chai/package.json|
+|[coffee-script](http://coffeescript.org)|1.9.0|Unfancy JavaScript|./node_modules/coffee-script/package.json|
+|[cucumber](http://github.com/cucumber/cucumber-js)|0.4.7|The official JavaScript implementation of Cucumber.|./node_modules/cucumber/package.json|
+|[freeport](https://github.com/daaku/nodejs-freeport)|1.0.4|Find a free port.|./node_modules/freeport/package.json|
+|[glob](https://github.com/isaacs/node-glob)|3.2.11|a little globber|./node_modules/glob/package.json|
+|[jasmine-node](https://github.com/mhevery/jasmine-node)|1.14.5|DOM-less simple JavaScript BDD testing framework for Node|./node_modules/jasmine-node/package.json|
+|[leadfoot](http://github.com/theintern/leadfoot)|1.2.1|Leadfoot. A JavaScript client library that brings cross-platform consistency to the Selenium WebDriver API.|./node_modules/leadfoot/package.json|
+|[lodash](http://lodash.com/)|2.4.1|A utility library delivering consistency, customization, performance, & extras.|./node_modules/lodash/package.json|
+|[mocha](https://github.com/visionmedia/mocha)|1.18.2|simple, flexible, fun test framework|./node_modules/mocha/package.json|
+|[nesh](http://danielgtaylor.github.io/nesh/)|1.5.1|An enhanced, extensible shell for Node.js|./node_modules/nesh/package.json|
+|[optimist](https://github.com/substack/node-optimist)|0.6.1|Light-weight option parsing with an argv hash. No optstrings attached.|./node_modules/optimist/package.json|
+|[saucelabs](https://github.com/holidayextras/node-saucelabs)|0.1.1|A wrapper around Sauce Labs REST API|./node_modules/saucelabs/package.json|
+|[selenium-webdriver](https://code.google.com/p/selenium/)|2.41.0|The official WebDriver JavaScript bindings from the Selenium project|./node_modules/selenium-webdriver/package.json|
+|[wd](https://github.com/admc/wd)|0.2.27|WebDriver/Selenium 2 node.js client|./node_modules/wd/package.json|
+|[webdrvr](https://github.com/uxebu/webdrvr)|2.41.0-0|NPM wrapper for Selenium Webdriver including Chromedriver / IEDriver / IOSDriver / Ghostdriver|./node_modules/webdrvr/package.json|
+
+### leadfoot
+
+|name|version|description|path|
+|----|-------|-----------|----|
+|[dojo]()|2.0.0-alpha4||./node_modules/dojo/package.json|
 
 ### nightwatch
 
@@ -200,53 +239,138 @@ generated Mon Feb  9 17:09:58 CEST 2015
 
 ## Matrix
 
-|index|browserstack-webdriver|intern|karma|nightwatch|selenium-webdriver|wd|webdriverio|
-|-----|------------------------------|--------------|-------------|------------------|--------------------------|----------|-------------------|
-|adm-zip|||||X|||
-|archiver||||||X|X|
-|async||||||X|X|
-|colors|||X|||||
-|connect|||X|||||
-|css-parse|||||||X|
-|css-value|||||||X|
-|deepmerge|||||||X|
-|di|||X|||||
-|diff||X||||||
-|digdug||X||||||
-|dojo||X||||||
-|ejs||||X||||
-|examples|||X|||||
-|glob|||X|||||
-|graceful-fs|||X|||||
-|grunt||||X||||
-|http-proxy|||X|||||
-|chai||X||||||
-|chainit|||||||X|
-|charm||X||||||
-|chokidar|||X|||||
-|istanbul||X||||||
-|keep-alive-agent|X|||||||
-|leadfoot||X||||||
-|lodash|||X|||X||
-|log4js|||X|||||
-|mime|||X|||||
-|minimatch|||X|X||||
-|mkpath||||X||||
-|nodemod||X||||||
-|optimist|||X|X||||
-|pragma-singleton|||||||X|
-|q|||X|||X|X|
-|request||||||X|X|
-|rgb2hex|||||||X|
-|rimraf|||X|||||
-|socket.io|||X|||||
-|source-map||X|X|||||
-|tmp|||||X|||
-|underscore.string||||||X||
-|url|||||||X|
-|useragent|||X|||||
-|vargs||||||X||
-|wgxpath|||||||X|
-|xml2js|||||X|||
+|index|browserstack-webdriver|intern|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
+|-----|------------------------------|--------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
+|address||||X||||||
+|adm-zip|||||||X|||
+|archiver||||||||X|X|
+|async||||X||||X|X|
+|cabbie||||X||||||
+|coffee-script||||X||||||
+|colors|||X|||||||
+|connect|||X|||||||
+|css-parse|||||||||X|
+|css-value|||||||||X|
+|cucumber||||X||||||
+|deepmerge|||||||||X|
+|di|||X|||||||
+|diff||X||||||||
+|digdug||X||||||||
+|dojo||X|||X|||||
+|ejs||||||X||||
+|examples|||X|||||||
+|freeport||||X||||||
+|glob|||X|X||||||
+|graceful-fs|||X|||||||
+|grunt||||||X||||
+|http-proxy|||X|||||||
+|chai||X||X||||||
+|chai-as-promised||||X||||||
+|chainit|||||||||X|
+|charm||X||||||||
+|chokidar|||X|||||||
+|istanbul||X||||||||
+|jasmine-node||||X||||||
+|keep-alive-agent|X|||||||||
+|leadfoot||X||X||||||
+|lodash|||X|X||||X||
+|log4js|||X|||||||
+|mime|||X|||||||
+|minimatch|||X|||X||||
+|mkpath||||||X||||
+|mocha||||X||||||
+|nesh||||X||||||
+|nodemod||X||||||||
+|optimist|||X|X||X||||
+|pragma-singleton|||||||||X|
+|q|||X|||||X|X|
+|request||||||||X|X|
+|rgb2hex|||||||||X|
+|rimraf|||X|||||||
+|saucelabs||||X||||||
+|selenium-webdriver||||X||||||
+|socket.io|||X|||||||
+|source-map||X|X|||||||
+|tmp|||||||X|||
+|underscore.string||||||||X||
+|url|||||||||X|
+|useragent|||X|||||||
+|vargs||||||||X||
+|wd||||X||||||
+|webdrvr||||X||||||
+|wgxpath|||||||||X|
+|xml2js|||||||X|||
+
+
+## Comparison
+
+Far from being finished....
+
+Intern web site contains some comparisons of the frameworks, however
+it is [missing some important players and features](https://github.com/theintern/intern/issues/346). 
+So I will add some here:
+
+Subjective Rankings:
+
+	3-good
+	2-ok
+	1-poor
+	0-none
+
+
+| feature 							|	selenium-webdriver	| kommando 	| intern 	|
+|-------- 							|------------------		|-----		|--------	|
+| Standalone Server  				| 1						| 3			| 1			|
+| Documentation - Local run 		| 3 					| 3			| 1			|
+| REPL								| 0 					| 2			| ?			|		
+
+
+### Standalone Server
+How much manual work is needed to run 
+tests agains browsers requiring selenium-server-standalone-*.jar.
+Download, confugure and instantiate support in each 'framework'.
+
+#### selenium-webdriver - 1 -
+
+- (cons) 'To run the tests, you will need to download a copy of the ChromeDriver and make sure it can be found on your PATH.'
+- (cons) They don't event updated docs 9nor npm nor wiki) after implementation of direct Firefox support.
+
+#### intern
+
+- why using pretty old 'selenium-version': '2.41.0' in the example config ?
+- based on [this blog post](http://www.sitepen.com/blog/2014/05/23/how-can-i-debug-intern-tests/) you must download all manually as well
+
+### Documentation - quick start testing with local browsers
+Here I ry to evaluate how much time and browsing it took to start first functional test 
+in local browser. Intern is in disadvantage here, their docs cover bit more so orientation is more difficult.
+
+#### selenium - 3 - 
+running sample from npm readme with native FF support they have now, took under 10 seconds, 
+if you have FF installed.
+
+#### kommando
+Running REPL and starting browser (FF, chrome, Opera) right after install requires no reading of any docs.
+This is the main purpose of the module BTW. 
+
+	$ ./node_modules/.bin/kommando --runner repl --browser chrome
+	Starting Selenium server ...
+	Selenium server started at: http://192.168.x.x:49408/wd/hub
+	Run tests using "browserName=chrome"
+	"kommando" / "kommando.browser" provide access to the running browser instance
+	kommando>
+
+##### kommand/vebdrvr
+Actually 'installing'  Selenium, Chromedriver, IEDriver and PhantomJS is not bad by kommando, but by
+[vebrdvr](https://github.com/uxebu/webdrvr) module.
+
+
+#### intern
+
+After 30 minutes of quick searching, I have found this topic:
+[Running-your-own-WebDriver-server](https://github.com/theintern/intern/wiki/Running-your-own-WebDriver-server).
+After another 30 minutes I have still no functional testing sample running.
+Another 30mins, cloned tutorial, donwloaded full tutorial cannot make tests/functiona to run, no errors, just not run.
+
+Gave up, [asking for help](https://github.com/theintern/intern/issues/347)
 
 
