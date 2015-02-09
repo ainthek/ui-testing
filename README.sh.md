@@ -108,7 +108,8 @@ $(
 	echo "$s" | md-table '\;'
 
 	echo "<div>"
-	echo "$s" | awk -F";" '{print $2" "$1}' | ../data2chart/bin/chart bar # FIXME: broken layout when published on github
+	# fixme: http://stackoverflow.com/questions/13808020/include-an-svg-hosted-on-github-in-markdown
+	# echo "$s" | awk -F";" '{print $2" "$1}' | ../data2chart/bin/chart bar # FIXME: broken layout when published on github
 	echo "</div>"
 )
 
