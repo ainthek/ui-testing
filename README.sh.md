@@ -120,9 +120,9 @@ $(
 		pushd node_modules/$m > /dev/null 
 
 		echo "### $m"
-		echo ""
+		echo "<div>"
 		list_node_modules | list_node_modules_filter_nested | list_node_modules_package_json  | list_node_modules_doc
-		echo ""
+		echo "</div>"
 		
 		list_node_modules | list_node_modules_filter_nested | awk-basename | sufix "\tX" > ../../$m.modules
 		popd >/dev/null
