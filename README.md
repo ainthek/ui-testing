@@ -12,12 +12,12 @@ Experiments and reviews of various ui testing frameworks
 
 	echo '{ name:ui-testing}' > package.json
 
-	npm install --save selenium-webdriver
-	npm install --save wd
-	npm install --save webdriverio
-	npm install --save nightwatch
-	npm install --save karma
-	npm install --save intern
+	npm install --save-dev selenium-webdriver
+	npm install --save-dev wd
+	npm install --save-dev webdriverio
+	npm install --save-dev nightwatch
+	npm install --save-dev karma
+	npm install --save-dev intern
 
 
 	git remote add origin https://github.com/ainthek/ui-testing.git
@@ -34,6 +34,12 @@ The official WebDriver JavaScript bindings from the Selenium project
 - <https://www.npmjs.com/package/selenium-webdriver>
 - <https://code.google.com/p/selenium/>
 
+
+## browserstack-webdriver
+
+BrowserStack WebDriver JavaScript bindings with keep alive support
+
+- <https://www.npmjs.com/package/browserstack-webdriver>
 
 ## wd
 WebDriver/Selenium 2 node.js client
@@ -86,11 +92,12 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Mon Feb  9 10:20:06 CEST 2015
+generated Mon Feb  9 17:09:58 CEST 2015
 
 |module| downloads in the last month | 
 |------|-----------------------------|
 |selenium-webdriver|374945|
+|browserstack-webdriver|2071|
 |webdriverio|7539|
 |wd|89427|
 |nightwatch|26239|
@@ -100,6 +107,12 @@ generated Mon Feb  9 10:20:06 CEST 2015
 </div>
 
 ## Modules used
+
+### browserstack-webdriver
+
+|name|version|description|path|
+|----|-------|-----------|----|
+|[keep-alive-agent](https://github.com/ceejbot/keep-alive-agent)|0.0.1|a keep-alive agent for http and https|./node_modules/keep-alive-agent/package.json|
 
 ### intern
 
@@ -187,52 +200,53 @@ generated Mon Feb  9 10:20:06 CEST 2015
 
 ## Matrix
 
-|index|intern|karma|nightwatch|selenium-webdriver|wd|webdriverio|
-|-----|--------------|-------------|------------------|--------------------------|----------|-------------------|
-|adm-zip||||X|||
-|archiver|||||X|X|
-|async|||||X|X|
-|colors||X|||||
-|connect||X|||||
-|css-parse||||||X|
-|css-value||||||X|
-|deepmerge||||||X|
-|di||X|||||
-|diff|X||||||
-|digdug|X||||||
-|dojo|X||||||
-|ejs|||X||||
-|examples||X|||||
-|glob||X|||||
-|graceful-fs||X|||||
-|grunt|||X||||
-|http-proxy||X|||||
-|chai|X||||||
-|chainit||||||X|
-|charm|X||||||
-|chokidar||X|||||
-|istanbul|X||||||
-|leadfoot|X||||||
-|lodash||X|||X||
-|log4js||X|||||
-|mime||X|||||
-|minimatch||X|X||||
-|mkpath|||X||||
-|nodemod|X||||||
-|optimist||X|X||||
-|pragma-singleton||||||X|
-|q||X|||X|X|
-|request|||||X|X|
-|rgb2hex||||||X|
-|rimraf||X|||||
-|socket.io||X|||||
-|source-map|X|X|||||
-|tmp||||X|||
-|underscore.string|||||X||
-|url||||||X|
-|useragent||X|||||
-|vargs|||||X||
-|wgxpath||||||X|
-|xml2js||||X|||
+|index|browserstack-webdriver|intern|karma|nightwatch|selenium-webdriver|wd|webdriverio|
+|-----|------------------------------|--------------|-------------|------------------|--------------------------|----------|-------------------|
+|adm-zip|||||X|||
+|archiver||||||X|X|
+|async||||||X|X|
+|colors|||X|||||
+|connect|||X|||||
+|css-parse|||||||X|
+|css-value|||||||X|
+|deepmerge|||||||X|
+|di|||X|||||
+|diff||X||||||
+|digdug||X||||||
+|dojo||X||||||
+|ejs||||X||||
+|examples|||X|||||
+|glob|||X|||||
+|graceful-fs|||X|||||
+|grunt||||X||||
+|http-proxy|||X|||||
+|chai||X||||||
+|chainit|||||||X|
+|charm||X||||||
+|chokidar|||X|||||
+|istanbul||X||||||
+|keep-alive-agent|X|||||||
+|leadfoot||X||||||
+|lodash|||X|||X||
+|log4js|||X|||||
+|mime|||X|||||
+|minimatch|||X|X||||
+|mkpath||||X||||
+|nodemod||X||||||
+|optimist|||X|X||||
+|pragma-singleton|||||||X|
+|q|||X|||X|X|
+|request||||||X|X|
+|rgb2hex|||||||X|
+|rimraf|||X|||||
+|socket.io|||X|||||
+|source-map||X|X|||||
+|tmp|||||X|||
+|underscore.string||||||X||
+|url|||||||X|
+|useragent|||X|||||
+|vargs||||||X||
+|wgxpath|||||||X|
+|xml2js|||||X|||
 
 

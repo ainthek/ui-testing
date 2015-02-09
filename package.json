@@ -1,6 +1,7 @@
 {
   "name": "ui-testing",
-  "dependencies": {
+  "devDependencies": {
+    "browserstack-webdriver": "^2.41.1",
     "intern": "^2.2.2",
     "karma": "^0.12.31",
     "nightwatch": "^0.5.36",

@@ -17,12 +17,12 @@ Experiments and reviews of various ui testing frameworks
 
 	echo '{ "name":"ui-testing"}' > package.json
 
-	npm install --save selenium-webdriver
-	npm install --save wd
-	npm install --save webdriverio
-	npm install --save nightwatch
-	npm install --save karma
-	npm install --save intern
+	npm install --save-dev selenium-webdriver
+	npm install --save-dev wd
+	npm install --save-dev webdriverio
+	npm install --save-dev nightwatch
+	npm install --save-dev karma
+	npm install --save-dev intern
 
 
 	git remote add origin https://github.com/ainthek/ui-testing.git
@@ -39,6 +39,12 @@ The official WebDriver JavaScript bindings from the Selenium project
 - <https://www.npmjs.com/package/selenium-webdriver>
 - <https://code.google.com/p/selenium/>
 
+
+## browserstack-webdriver
+
+BrowserStack WebDriver JavaScript bindings with keep alive support
+
+- <https://www.npmjs.com/package/browserstack-webdriver>
 
 ## wd
 WebDriver/Selenium 2 node.js client
@@ -98,6 +104,7 @@ generated $(date)
 $(
 	s=$(
 	npm_stats selenium-webdriver;
+	npm_stats browserstack-webdriver;
 	npm_stats webdriverio;
 	npm_stats wd;
 	npm_stats nightwatch;
