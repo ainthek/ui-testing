@@ -86,7 +86,7 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Mon Feb  9 10:11:45 CEST 2015
+generated Mon Feb  9 10:14:20 CEST 2015
 
 |module| downloads in the last month | 
 |------|-----------------------------|
@@ -96,11 +96,41 @@ generated Mon Feb  9 10:11:45 CEST 2015
 |nightwatch|26239|
 |karma|779799|
 |intern|7826|
+<div>
+<svg id="chart" width="800" height="650"><g class="display" transform="translate(80,58)"><g class="gridline" transform="translate(0,0)"><g class="tick" style="opacity: 1;" transform="translate(0,392)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,341.7306357151009)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,291.46127143020186)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,241.19190714530285)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,190.92254286040378)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,140.65317857550468)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,90.38381429060566)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><g class="tick" style="opacity: 1;" transform="translate(0,40.11445000570659)"><line x2="680" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-3" y="0"></text></g><path class="domain" d="M0,0H0V392H0"></path></g><rect class="bar" x="17.000000000000004" y="203.51753208198525" height="188.48246791801475" width="79.33333333333333" style="fill: #1f77b4;"></rect><rect class="bar" x="130.33333333333334" y="388.2101926265615" height="3.7898073734385207" width="79.33333333333333" style="fill: #aec7e8;"></rect><rect class="bar" x="243.66666666666666" y="347.04561560094334" height="44.954384399056664" width="79.33333333333333" style="fill: #ff7f0e;"></rect><rect class="bar" x="357" y="378.8098215052853" height="13.1901784947147" width="79.33333333333333" style="fill: #ffbb78;"></rect><rect class="bar" x="470.3333333333333" y="0" height="392" width="79.33333333333333" style="fill: #2ca02c;"></rect><rect class="bar" x="583.6666666666666" y="388.0659195510638" height="3.934080448936186" width="79.33333333333333" style="fill: #98df8a;"></rect><text class="bar-label" text-anchor="middle" x="56.666666666666664" dx="0" y="203.51753208198525" dy="-6">374945</text><text class="bar-label" text-anchor="middle" x="170" dx="0" y="388.2101926265615" dy="-6">7539</text><text class="bar-label" text-anchor="middle" x="283.3333333333333" dx="0" y="347.04561560094334" dy="-6">89427</text><text class="bar-label" text-anchor="middle" x="396.6666666666667" dx="0" y="378.8098215052853" dy="-6">26239</text><text class="bar-label" text-anchor="middle" x="510" dx="0" y="0" dy="-6">779799</text><text class="bar-label" text-anchor="middle" x="623.3333333333333" dx="0" y="388.0659195510638" dy="-6">7826</text><g class="x axis" transform="translate(0,392)"><g class="tick" style="opacity: 1;" transform="translate(56.666666666666664,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">selenium-webdriver</text></g><g class="tick" style="opacity: 1;" transform="translate(170,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">webdriverio</text></g><g class="tick" style="opacity: 1;" transform="translate(283.3333333333333,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">wd</text></g><g class="tick" style="opacity: 1;" transform="translate(396.6666666666667,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">nightwatch</text></g><g class="tick" style="opacity: 1;" transform="translate(510,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">karma</text></g><g class="tick" style="opacity: 1;" transform="translate(623.3333333333333,0)"><line y2="6" x2="0"></line><text dy="8" style="text-anchor: end;" y="9" x="0" dx="-8" transform="translate(0,0) rotate(-45)">intern</text></g><path class="domain" d="M0,6V0H680V6"></path><text x="0" y="0" style="text-anchor: middle; font-weight: bold;" transform="translate(340,95)"></text></g><g class="y axis" transform="translate(0,0)"><g class="tick" style="opacity: 1;" transform="translate(0,392)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">0</text></g><g class="tick" style="opacity: 1;" transform="translate(0,341.7306357151009)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">100,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,291.46127143020186)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">200,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,241.19190714530285)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">300,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,190.92254286040378)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">400,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,140.65317857550468)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">500,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,90.38381429060566)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">600,000</text></g><g class="tick" style="opacity: 1;" transform="translate(0,40.11445000570659)"><line x2="-6" y2="0"></line><text dy=".32em" style="text-anchor: end;" x="-9" y="0">700,000</text></g><path class="domain" d="M-6,0H0V392H-6"></path><text x="0" y="0" style="text-anchor: middle; font-weight: bold;" transform="translate(-40,196) rotate(-90)"></text></g></g><defs><style type="text/css">
+#chart{
+	background-color: #F5F2EB;
+	border: 1px solid #CCC;
+	font-size: 12px;
+}
+.bar{
+	fill: purple;
+	shape-rendering: crispEdges;
+}
+.bar-label{
+	fill: #000;
+	text-anchor: middle;
+	font-size: 10px;
+}
+.axis path,
+.axis line{
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+.gridline path,
+.gridline line{
+	fill: none;
+	stroke: #ccc;
+	shape-rendering: crispEdges;
+}
+</style></defs></svg>
+</div>
 
 ## Modules used
 
 ### intern
-<div>
+
 |name|version|description|path|
 |----|-------|-----------|----|
 |[chai](http://chaijs.com)|1.9.1|BDD/TDD assertion library for node.js and the browser. Test framework agnostic.|./node_modules/chai/package.json|
@@ -112,9 +142,9 @@ generated Mon Feb  9 10:11:45 CEST 2015
 |[leadfoot](http://github.com/theintern/leadfoot)|1.2.1|Leadfoot. A JavaScript client library that brings cross-platform consistency to the Selenium WebDriver API.|./node_modules/leadfoot/package.json|
 |[nodemod]()|||./node_modules/dojo/tests-doh/resources/nodemod/package.json|
 |[source-map](https://github.com/mozilla/source-map)|0.1.33|Generates and consumes source maps|./node_modules/source-map/package.json|
-</div>
+
 ### karma
-<div>
+
 |name|version|description|path|
 |----|-------|-----------|----|
 |[chokidar](https://github.com/paulmillr/chokidar)|0.12.6|A neat wrapper around node.js fs.watch / fs.watchFile / fsevents.|./node_modules/chokidar/package.json|
@@ -135,9 +165,9 @@ generated Mon Feb  9 10:11:45 CEST 2015
 |[socket.io](http://socket.io)|0.9.16|Real-time apps made cross-browser & easy with a WebSocket-like API|./node_modules/socket.io/package.json|
 |[source-map](https://github.com/mozilla/source-map)|0.1.43|Generates and consumes source maps|./node_modules/source-map/package.json|
 |[useragent](https://github.com/3rd-Eden/useragent)|2.0.10|Fastest, most accurate & effecient user agent string parser, uses Browserscope's research for parsing|./node_modules/useragent/package.json|
-</div>
+
 ### nightwatch
-<div>
+
 |name|version|description|path|
 |----|-------|-----------|----|
 |[ejs](https://github.com/visionmedia/ejs)|0.8.8|Embedded JavaScript templates|./node_modules/ejs/package.json|
@@ -145,17 +175,17 @@ generated Mon Feb  9 10:11:45 CEST 2015
 |[minimatch](https://github.com/isaacs/minimatch)|0.2.14|a glob matcher in javascript|./node_modules/minimatch/package.json|
 |[mkpath](https://github.com/jrajav/mkpath)|0.1.0|Make all directories in a path, like mkdir -p|./node_modules/mkpath/package.json|
 |[optimist](https://github.com/substack/node-optimist)|0.6.1|Light-weight option parsing with an argv hash. No optstrings attached.|./node_modules/optimist/package.json|
-</div>
+
 ### selenium-webdriver
-<div>
+
 |name|version|description|path|
 |----|-------|-----------|----|
 |[adm-zip](http://github.com/cthackers/adm-zip)|0.4.4|A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk|./node_modules/adm-zip/package.json|
 |[tmp](http://github.com/raszi/node-tmp)|0.0.24|Temporary file and directory creator|./node_modules/tmp/package.json|
 |[xml2js](https://github.com/Leonidas-from-XIV/node-xml2js)|0.4.4|Simple XML to JavaScript object converter.|./node_modules/xml2js/package.json|
-</div>
+
 ### wd
-<div>
+
 |name|version|description|path|
 |----|-------|-----------|----|
 |[archiver](https://github.com/ctalkington/node-archiver)|0.12.0|a streaming interface for archive generation|./node_modules/archiver/package.json|
@@ -165,9 +195,9 @@ generated Mon Feb  9 10:11:45 CEST 2015
 |[request](https://github.com/mikeal/request)|2.46.0|Simplified HTTP request client.|./node_modules/request/package.json|
 |[underscore.string](http://epeli.github.com/underscore.string/)|2.3.3|String manipulation extensions for Underscore.js javascript library.|./node_modules/underscore.string/package.json|
 |[vargs]()|0.1.0|practical variable argument handling|./node_modules/vargs/package.json|
-</div>
+
 ### webdriverio
-<div>
+
 |name|version|description|path|
 |----|-------|-----------|----|
 |[archiver](https://github.com/ctalkington/node-archiver)|0.6.1|Creates Archives (ZIP) via Node Streams.|./node_modules/archiver/package.json|
@@ -182,7 +212,6 @@ generated Mon Feb  9 10:11:45 CEST 2015
 |[rgb2hex](https://github.com/christian-bromann/rgb2hex)|0.1.0|lightweight rgb/rgba to hex parser|./node_modules/rgb2hex/package.json|
 |[url](https://github.com/defunctzombie/node-url)|0.10.2|The core `url` packaged standalone for use with Browserify.|./node_modules/url/package.json|
 |[wgxpath](https://github.com/jacobmarble/node-wgxpath)|0.23.0|Wicked Good XPath|./node_modules/wgxpath/package.json|
-</div>
 
 ## Matrix
 

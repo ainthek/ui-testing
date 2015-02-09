@@ -107,9 +107,9 @@ $(
 
 	echo "$s" | md-table '\;'
 
-	#echo ""
-	# echo "$s" | awk -F";" '{print $2" "$1}' | ../data2chart/bin/chart bar # FIXME: broken layout when published on github
-	#echo ""
+	echo "<div>"
+	echo "$s" | awk -F";" '{print $2" "$1}' | ../data2chart/bin/chart bar # FIXME: broken layout when published on github
+	echo "</div>"
 )
 
 ## Modules used
@@ -120,9 +120,9 @@ $(
 		pushd node_modules/$m > /dev/null 
 
 		echo "### $m"
-		echo "<div>"
+		echo ""
 		list_node_modules | list_node_modules_filter_nested | list_node_modules_package_json  | list_node_modules_doc
-		echo "</div>"
+		echo ""
 		
 		list_node_modules | list_node_modules_filter_nested | awk-basename | sufix "\tX" > ../../$m.modules
 		popd >/dev/null
