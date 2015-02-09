@@ -135,7 +135,7 @@ $(
 ## Matrix
 
 $(
-	join-paste *.modules | md-table | md-table-header "|" | sed "3d" | sed "s;\.modules;;g" | sed "1 s;\.txt;;"
+	join-paste *.modules | md-table | md-table-header "|" | sed "3d" | sed "s;n/a;;g" | sed "s;\.modules;;g" | sed "1 s;\.txt;;"
 	rm *.modules
 )
 

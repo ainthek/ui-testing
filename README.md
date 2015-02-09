@@ -86,7 +86,7 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Mon Feb  9 10:18:07 CEST 2015
+generated Mon Feb  9 10:20:06 CEST 2015
 
 |module| downloads in the last month | 
 |------|-----------------------------|
@@ -189,50 +189,50 @@ generated Mon Feb  9 10:18:07 CEST 2015
 
 |index|intern|karma|nightwatch|selenium-webdriver|wd|webdriverio|
 |-----|--------------|-------------|------------------|--------------------------|----------|-------------------|
-|adm-zip|n/a|n/a|n/a|X|n/a|n/a|
-|archiver|n/a|n/a|n/a|n/a|X|X|
-|async|n/a|n/a|n/a|n/a|X|X|
-|colors|n/a|X|n/a|n/a|n/a|n/a|
-|connect|n/a|X|n/a|n/a|n/a|n/a|
-|css-parse|n/a|n/a|n/a|n/a|n/a|X|
-|css-value|n/a|n/a|n/a|n/a|n/a|X|
-|deepmerge|n/a|n/a|n/a|n/a|n/a|X|
-|di|n/a|X|n/a|n/a|n/a|n/a|
-|diff|X|n/a|n/a|n/a|n/a|n/a|
-|digdug|X|n/a|n/a|n/a|n/a|n/a|
-|dojo|X|n/a|n/a|n/a|n/a|n/a|
-|ejs|n/a|n/a|X|n/a|n/a|n/a|
-|examples|n/a|X|n/a|n/a|n/a|n/a|
-|glob|n/a|X|n/a|n/a|n/a|n/a|
-|graceful-fs|n/a|X|n/a|n/a|n/a|n/a|
-|grunt|n/a|n/a|X|n/a|n/a|n/a|
-|http-proxy|n/a|X|n/a|n/a|n/a|n/a|
-|chai|X|n/a|n/a|n/a|n/a|n/a|
-|chainit|n/a|n/a|n/a|n/a|n/a|X|
-|charm|X|n/a|n/a|n/a|n/a|n/a|
-|chokidar|n/a|X|n/a|n/a|n/a|n/a|
-|istanbul|X|n/a|n/a|n/a|n/a|n/a|
-|leadfoot|X|n/a|n/a|n/a|n/a|n/a|
-|lodash|n/a|X|n/a|n/a|X|n/a|
-|log4js|n/a|X|n/a|n/a|n/a|n/a|
-|mime|n/a|X|n/a|n/a|n/a|n/a|
-|minimatch|n/a|X|X|n/a|n/a|n/a|
-|mkpath|n/a|n/a|X|n/a|n/a|n/a|
-|nodemod|X|n/a|n/a|n/a|n/a|n/a|
-|optimist|n/a|X|X|n/a|n/a|n/a|
-|pragma-singleton|n/a|n/a|n/a|n/a|n/a|X|
-|q|n/a|X|n/a|n/a|X|X|
-|request|n/a|n/a|n/a|n/a|X|X|
-|rgb2hex|n/a|n/a|n/a|n/a|n/a|X|
-|rimraf|n/a|X|n/a|n/a|n/a|n/a|
-|socket.io|n/a|X|n/a|n/a|n/a|n/a|
-|source-map|X|X|n/a|n/a|n/a|n/a|
-|tmp|n/a|n/a|n/a|X|n/a|n/a|
-|underscore.string|n/a|n/a|n/a|n/a|X|n/a|
-|url|n/a|n/a|n/a|n/a|n/a|X|
-|useragent|n/a|X|n/a|n/a|n/a|n/a|
-|vargs|n/a|n/a|n/a|n/a|X|n/a|
-|wgxpath|n/a|n/a|n/a|n/a|n/a|X|
-|xml2js|n/a|n/a|n/a|X|n/a|n/a|
+|adm-zip||||X|||
+|archiver|||||X|X|
+|async|||||X|X|
+|colors||X|||||
+|connect||X|||||
+|css-parse||||||X|
+|css-value||||||X|
+|deepmerge||||||X|
+|di||X|||||
+|diff|X||||||
+|digdug|X||||||
+|dojo|X||||||
+|ejs|||X||||
+|examples||X|||||
+|glob||X|||||
+|graceful-fs||X|||||
+|grunt|||X||||
+|http-proxy||X|||||
+|chai|X||||||
+|chainit||||||X|
+|charm|X||||||
+|chokidar||X|||||
+|istanbul|X||||||
+|leadfoot|X||||||
+|lodash||X|||X||
+|log4js||X|||||
+|mime||X|||||
+|minimatch||X|X||||
+|mkpath|||X||||
+|nodemod|X||||||
+|optimist||X|X||||
+|pragma-singleton||||||X|
+|q||X|||X|X|
+|request|||||X|X|
+|rgb2hex||||||X|
+|rimraf||X|||||
+|socket.io||X|||||
+|source-map|X|X|||||
+|tmp||||X|||
+|underscore.string|||||X||
+|url||||||X|
+|useragent||X|||||
+|vargs|||||X||
+|wgxpath||||||X|
+|xml2js||||X|||
 
 
