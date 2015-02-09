@@ -86,7 +86,7 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Mon Feb  9 10:08:58 CEST 2015
+generated Mon Feb  9 10:11:45 CEST 2015
 
 |module| downloads in the last month | 
 |------|-----------------------------|
