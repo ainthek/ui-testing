@@ -77,10 +77,14 @@ Another 30mins, cloned tutorial, downloaded full tutorial cannot make tests/func
 
 Gave up, [asking for help ](https://github.com/theintern/intern/issues/347)
 
-Update: 2015/02/10 -  reading the answer (Thanx) and googling I have foudn this
-<http://www.sitepen.com/blog/2014/04/23/dojo-faq-how-can-i-run-dojo-tests-locally-with-intern/> who knows how obsolete article, I have managed to start server manually with GRRRRRR (java) and run tests, receiving some reasonable errors....
+Update: 2015/02/10 -  reading the answer (Thank) and googling I have found this
+<http://www.sitepen.com/blog/2014/04/23/dojo-faq-how-can-i-run-dojo-tests-locally-with-intern/> article.
+After not believing this is really what intern offers, 
+I have 'managed' to start server MANULLLY with actually typing the word 'java' 
+(GRRRRRR, just compare wit the bare selenium-webdriver, 
+which [ 'they' do not consider to be a test framework ](https://github.com/theintern/intern/issues/346#issuecomment-73727973), and after previous positive KARMA, seems unbelievable achievement..
 
-After "pruning my environment" (as vaguely suggested in article) to 
+After "pruning my environment" (as vaguely suggested in article), to my guessed minimum:
 
 	{ browserName: 'firefox' }
 
@@ -88,7 +92,7 @@ or
 
 	{ browserName: 'chrome' }
 
-and testcode:
+and having test-code:
 
 	define([
 		'intern!object',
@@ -101,10 +105,18 @@ and testcode:
 	    });
 	});	
 
+and running:
 
-I have finally seen flash of google.com, after series of flashes in urlbar, screen and console.
-Success withing 48 hours in not bad for "ENTERPRISE LEVEL, ALL IN ONE, FRAMEWORK".
-Going to sleep (today).
+	(GRRRRRR) java -jar $SELENIUM_SERVER_JAR -port 4444
+
+and 
+	
+	node_modules/.bin/intern-runner config=tests/intern
+
+
+I have finally seen 'flash' of google.com webpage , 
+after series of blinking URLs....
+Success withing 48 hours in not bad. Or ? Going to sleep (today).
 
 <!-- ;-)))))
 ## Bullshit and 'flame war starters'

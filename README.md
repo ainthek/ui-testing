@@ -98,23 +98,29 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Tue Feb 10 02:14:50 CET 2015
+generated Tue Feb 10 23:39:29 CET 2015
 
 | module| downloads in the last month | 
 |------	|-----------------------------|
-|selenium-webdriver|374945|
-|browserstack-webdriver|2071|
-|webdriverio|7539|
-|wd|89427|
-|kommando|131|
+|selenium-webdriver|386337|
+|browserstack-webdriver|2157|
+|webdriverio|7764|
+|wd|92353|
+|kommando|133|
 |webdrvr|164|
-|nightwatch|26239|
-|karma|779799|
-|leadfoot|8146|
+|nightwatch|26780|
+|karma|801080|
+|leadfoot|8398|
 |intern|8106|
 |testardo|227|
 
 ## Modules used
+
+### browserstack-webdriver
+
+|name|version|description
+|----|-------|-----------
+|[keep-alive-agent](https://github.com/ceejbot/keep-alive-agent)|0.0.1|a keep-alive agent for http and https
 
 ### intern
 
@@ -152,6 +158,35 @@ generated Tue Feb 10 02:14:50 CET 2015
 |[socket.io](http://socket.io)|0.9.16|Real-time apps made cross-browser & easy with a WebSocket-like API
 |[source-map](https://github.com/mozilla/source-map)|0.1.43|Generates and consumes source maps
 |[useragent](https://github.com/3rd-Eden/useragent)|2.0.10|Fastest, most accurate & effecient user agent string parser, uses Browserscope's research for parsing
+
+### kommando
+
+|name|version|description
+|----|-------|-----------
+|[address](https://github.com/fengmk2/address)|0.0.3|Get current machine IP, MAC and DNS servers.
+|[async](https://github.com/caolan/async)|0.8.0|Higher-order functions and common patterns for asynchronous code
+|[cabbie](https://github.com/ForbesLindesay/cabbie)|0.0.9|A webdriver client
+|[chai-as-promised](https://github.com/domenic/chai-as-promised)|4.1.1|Extends Chai with assertions about promises.
+|[chai](http://chaijs.com)|1.10.0|BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
+|[coffee-script](http://coffeescript.org)|1.9.0|Unfancy JavaScript
+|[cucumber](http://github.com/cucumber/cucumber-js)|0.4.7|The official JavaScript implementation of Cucumber.
+|[freeport](https://github.com/daaku/nodejs-freeport)|1.0.4|Find a free port.
+|[glob](https://github.com/isaacs/node-glob)|3.2.11|a little globber
+|[jasmine-node](https://github.com/mhevery/jasmine-node)|1.14.5|DOM-less simple JavaScript BDD testing framework for Node
+|[lodash](http://lodash.com/)|2.4.1|A utility library delivering consistency, customization, performance, & extras.
+|[mocha](https://github.com/visionmedia/mocha)|1.18.2|simple, flexible, fun test framework
+|[nesh](http://danielgtaylor.github.io/nesh/)|1.5.1|An enhanced, extensible shell for Node.js
+|[optimist](https://github.com/substack/node-optimist)|0.6.1|Light-weight option parsing with an argv hash. No optstrings attached.
+|[saucelabs](https://github.com/holidayextras/node-saucelabs)|0.1.1|A wrapper around Sauce Labs REST API
+|[selenium-webdriver](https://code.google.com/p/selenium/)|2.41.0|The official WebDriver JavaScript bindings from the Selenium project
+|[wd](https://github.com/admc/wd)|0.2.27|WebDriver/Selenium 2 node.js client
+|[webdrvr](https://github.com/uxebu/webdrvr)|2.41.0-0|NPM wrapper for Selenium Webdriver including Chromedriver / IEDriver / IOSDriver / Ghostdriver
+
+### leadfoot
+
+|name|version|description
+|----|-------|-----------
+|[dojo]()|2.0.0-alpha4|
 
 ### nightwatch
 
@@ -202,53 +237,67 @@ generated Tue Feb 10 02:14:50 CET 2015
 
 ## Matrix
 
-|index|intern|karma|nightwatch|selenium-webdriver|wd|webdriverio|
-|-----|--------------|-------------|------------------|--------------------------|----------|-------------------|
-|adm-zip||||X|||
-|archiver|||||X|X|
-|async|||||X|X|
-|chai|X||||||
-|chainit||||||X|
-|charm|X||||||
-|chokidar||X|||||
-|colors||X|||||
-|connect||X|||||
-|css-parse||||||X|
-|css-value||||||X|
-|deepmerge||||||X|
-|di||X|||||
-|diff|X||||||
-|digdug|X||||||
-|dojo|X||||||
-|ejs|||X||||
-|examples||X|||||
-|glob||X|||||
-|graceful-fs||X|||||
-|grunt|||X||||
-|http-proxy||X|||||
-|istanbul|X||||||
-|leadfoot|X||||||
-|lodash||X|||X||
-|log4js||X|||||
-|mime||X|||||
-|minimatch||X|X||||
-|mkpath|||X||||
-|nodemod|X||||||
-|optimist||X|X||||
-|pragma-singleton||||||X|
-|q||X|||X|X|
-|request|||||X|X|
-|rgb2hex||||||X|
-|rimraf||X|||||
-|socket.io||X|||||
-|source-map|X|X|||||
-|tmp||||X|||
-|underscore.string|||||X||
-|url||||||X|
-|useragent||X|||||
-|vargs|||||X||
-|wgxpath||||||X|
-|xml2js||||X|||
+|index|browserstack-webdriver|intern|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
+|-----|------------------------------|--------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
+|address||||X||||||
+|adm-zip|||||||X|||
+|archiver||||||||X|X|
+|async||||X||||X|X|
+|cabbie||||X||||||
+|chai||X||X||||||
+|chai-as-promised||||X||||||
+|chainit|||||||||X|
+|charm||X||||||||
+|chokidar|||X|||||||
+|coffee-script||||X||||||
+|colors|||X|||||||
+|connect|||X|||||||
+|css-parse|||||||||X|
+|css-value|||||||||X|
+|cucumber||||X||||||
+|deepmerge|||||||||X|
+|di|||X|||||||
+|diff||X||||||||
+|digdug||X||||||||
+|dojo||X|||X|||||
+|ejs||||||X||||
+|examples|||X|||||||
+|freeport||||X||||||
+|glob|||X|X||||||
+|graceful-fs|||X|||||||
+|grunt||||||X||||
+|http-proxy|||X|||||||
+|istanbul||X||||||||
+|jasmine-node||||X||||||
+|keep-alive-agent|X|||||||||
+|leadfoot||X||||||||
+|lodash|||X|X||||X||
+|log4js|||X|||||||
+|mime|||X|||||||
+|minimatch|||X|||X||||
+|mkpath||||||X||||
+|mocha||||X||||||
+|nesh||||X||||||
+|nodemod||X||||||||
+|optimist|||X|X||X||||
+|pragma-singleton|||||||||X|
+|q|||X|||||X|X|
+|request||||||||X|X|
+|rgb2hex|||||||||X|
+|rimraf|||X|||||||
+|saucelabs||||X||||||
+|selenium-webdriver||||X||||||
+|socket.io|||X|||||||
+|source-map||X|X|||||||
+|tmp|||||||X|||
+|underscore.string||||||||X||
+|url|||||||||X|
+|useragent|||X|||||||
+|vargs||||||||X||
+|wd||||X||||||
+|webdrvr||||X||||||
+|wgxpath|||||||||X|
+|xml2js|||||||X|||
 
 
 ## Comparison
@@ -329,5 +378,52 @@ After another 30 minutes I have still no functional testing sample running.
 Another 30mins, cloned tutorial, downloaded full tutorial cannot make tests/functional to run, no errors, just not run.
 
 Gave up, [asking for help ](https://github.com/theintern/intern/issues/347)
+
+Update: 2015/02/10 -  reading the answer (Thank) and googling I have found this
+<http://www.sitepen.com/blog/2014/04/23/dojo-faq-how-can-i-run-dojo-tests-locally-with-intern/> article.
+After not believing this is really what intern offers, 
+I have 'managed' to start server MANULLLY with actually typing the word 'java' 
+(GRRRRRR, just compare wit the bare selenium-webdriver, 
+which [ 'they' do not consider to be a test framework ](https://github.com/theintern/intern/issues/346#issuecomment-73727973), and after previous positive KARMA, seems unbelievable achievement..
+
+After "pruning my environment" (as vaguely suggested in article), to my guessed minimum:
+
+	{ browserName: 'firefox' }
+
+or 
+
+	{ browserName: 'chrome' }
+
+and having test-code:
+
+	define([
+		'intern!object',
+	], function (registerSuite) {
+	     registerSuite({
+	        name: 'minimal demo',
+	        'of getting google': function () {
+	            return this.remote.get('http://www.google.com');
+	        }
+	    });
+	});	
+
+and running:
+
+	(GRRRRRR) java -jar $SELENIUM_SERVER_JAR -port 4444
+
+and 
+	
+	node_modules/.bin/intern-runner config=tests/intern
+
+
+I have finally seen 'flash' of google.com webpage , 
+after series of blinking URLs....
+Success withing 48 hours in not bad. Or ? Going to sleep (today).
+
+<!-- ;-)))))
+### Bullshit and 'flame war starters'
+
+- How popular is intern on stackoverflow (propagated by SitePen, Dojo, Snover, .... team as support channel) - ha ha ha, just in case I do not include stats nor question nor answers.... but is is joke compared to community around something 'real'
+-->
 
 
