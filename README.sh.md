@@ -138,7 +138,7 @@ $(
 
 		echo "### $m"
 		echo ""
-		list_node_modules | list_node_modules_filter_nested | list_node_modules_package_json  | list_node_modules_doc
+		list_node_modules | list_node_modules_filter_nested | list_node_modules_package_json  | list_node_modules_doc | cut -d"|" -f1,2,3,4
 		echo ""
 		
 		list_node_modules | list_node_modules_filter_nested | awk-basename | sufix "\tX" > ../../$m.modules
