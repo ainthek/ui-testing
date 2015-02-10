@@ -105,8 +105,8 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 generated $(date)
 
-| module	| downloads in the last month | 
-|------		 d|-----------------------------|
+| module| downloads in the last month | 
+|------	|-----------------------------|
 $(
 	s=$(
 	npm_stats selenium-webdriver;
@@ -119,14 +119,15 @@ $(
 	npm_stats karma;
 	npm_stats leadfoot;
 	npm_stats intern;
+	npm_stats testardo;
 	)
 
 	echo "$s" | md-table '\;'
 
-	echo "<div>"
+	#echo "<div>"
 	# fixme: http://stackoverflow.com/questions/13808020/include-an-svg-hosted-on-github-in-markdown
 	# echo "$s" | awk -F";" '{print $2" "$1}' | ../data2chart/bin/chart bar # FIXME: broken layout when published on github
-	echo "</div>"
+	#echo "</div>"
 )
 
 ## Modules used

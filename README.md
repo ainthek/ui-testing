@@ -98,22 +98,21 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Tue Feb 10 01:46:01 CET 2015
+generated Tue Feb 10 02:14:50 CET 2015
 
-| module	| downloads in the last month | 
-|------		 d|-----------------------------|
+| module| downloads in the last month | 
+|------	|-----------------------------|
 |selenium-webdriver|374945|
 |browserstack-webdriver|2071|
 |webdriverio|7539|
 |wd|89427|
 |kommando|131|
-|webdrvr|147|
+|webdrvr|164|
 |nightwatch|26239|
 |karma|779799|
 |leadfoot|8146|
-|intern|7826|
-<div>
-</div>
+|intern|8106|
+|testardo|227|
 
 ## Modules used
 
