@@ -32,7 +32,7 @@ Download, configure and instantiate support in each 'framework'.
 - (cons) They don't event updated docs (nor npm nor wiki) after implementation of direct Firefox support.
 - However after some downloading of related and compatible version for each of your OSes, you can have it running in lt; 30 mins for all browsers you need.
 
-	TODO: donwload sample code sample
+	TODO: download sample code sample
 
 ### intern
 

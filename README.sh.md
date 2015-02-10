@@ -57,10 +57,10 @@ WebDriver/Selenium 2 node.js client
 ## webdriverio
 Selenium 2.0 bindings for NodeJS
 
-Most of the Selenium WebDriver Wire Protocol is already implemented and wraped in useful commands.
+Most of the Selenium WebDriver Wire Protocol is already implemented and wrapped in useful commands.
 
-Adding helper functions, or more complicated sets and combi-
-nations of existing commands is simple and really useful
+Adding helper functions, or more complicated sets 
+and combinations of existing commands is simple and really useful
 
 WebdriverIO works in combination with most of the TDD and BDD test frameworks in the JavaScript world.
 
@@ -105,8 +105,8 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 generated $(date)
 
-|module| downloads in the last month | 
-|------|-----------------------------|
+| module	| downloads in the last month | 
+|------		 d|-----------------------------|
 $(
 	s=$(
 	npm_stats selenium-webdriver;

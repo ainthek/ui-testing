@@ -52,10 +52,10 @@ WebDriver/Selenium 2 node.js client
 ## webdriverio
 Selenium 2.0 bindings for NodeJS
 
-Most of the Selenium WebDriver Wire Protocol is already implemented and wraped in useful commands.
+Most of the Selenium WebDriver Wire Protocol is already implemented and wrapped in useful commands.
 
-Adding helper functions, or more complicated sets and combi-
-nations of existing commands is simple and really useful
+Adding helper functions, or more complicated sets 
+and combinations of existing commands is simple and really useful
 
 WebdriverIO works in combination with most of the TDD and BDD test frameworks in the JavaScript world.
 
@@ -98,10 +98,10 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Tue Feb 10 01:39:29 CET 2015
+generated Tue Feb 10 01:46:01 CET 2015
 
-|module| downloads in the last month | 
-|------|-----------------------------|
+| module	| downloads in the last month | 
+|------		 d|-----------------------------|
 |selenium-webdriver|374945|
 |browserstack-webdriver|2071|
 |webdriverio|7539|
@@ -286,7 +286,7 @@ Download, configure and instantiate support in each 'framework'.
 - (cons) They don't event updated docs (nor npm nor wiki) after implementation of direct Firefox support.
 - However after some downloading of related and compatible version for each of your OSes, you can have it running in lt; 30 mins for all browsers you need.
 
-	TODO: donwload sample code sample
+	TODO: download sample code sample
 
 #### intern
 
