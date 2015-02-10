@@ -77,6 +77,41 @@ Another 30mins, cloned tutorial, downloaded full tutorial cannot make tests/func
 
 Gave up, [asking for help ](https://github.com/theintern/intern/issues/347)
 
+Update: 2015/02/10 -  reading the answer (Thanx) and googling I have foudn this
+<http://www.sitepen.com/blog/2014/04/23/dojo-faq-how-can-i-run-dojo-tests-locally-with-intern/> who knows how obsolete article, I have managed to start server manually with GRRRRRR (java) and run tests, receiving some reasonable errors....
+
+After "pruning my environment" (as vaguely suggested in article) to 
+
+	{ browserName: 'firefox' }
+
+or 
+
+	{ browserName: 'chrome' }
+
+and testcode:
+
+	define([
+		'intern!object',
+	], function (registerSuite) {
+	     registerSuite({
+	        name: 'minimal demo',
+	        'of getting google': function () {
+	            return this.remote.get('http://www.google.com');
+	        }
+	    });
+	});	
+
+
+I have finally seen flash of google.com, after series of flashes in urlbar, screen and console.
+Success withing 48 hours in not bad for "ENTERPRISE LEVEL, ALL IN ONE, FRAMEWORK".
+Going to sleep (today).
+
+<!-- ;-)))))
+## Bullshit and 'flame war starters'
+
+- How popular is intern on stackoverflow (propagated by SitePen, Dojo, Snover, .... team as support channel) - ha ha ha, just in case I do not include stats nor question nor answers.... but is is joke compared to community around something 'real'
+-->
+
 
 
 
