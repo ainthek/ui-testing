@@ -22,6 +22,7 @@ Experiments and reviews of various ui testing frameworks
 	npm install --save-dev leadfoot
 	npm install --save-dev intern
 
+	npm install --save-dev jscoverage
 
 	git remote add origin https://github.com/ainthek/ui-testing.git
 
@@ -98,21 +99,28 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Tue Feb 10 23:39:29 CET 2015
+generated Wed Feb 11 10:36:31 CET 2015
+
+Included here is not comparable, some of them are
+full stack things some of them are modules reused by others etc...
+
+However the numbers tell something (TODO: separate and chart)
 
 | module| downloads in the last month | 
 |------	|-----------------------------|
-|selenium-webdriver|386337|
-|browserstack-webdriver|2157|
-|webdriverio|7764|
-|wd|92353|
-|kommando|133|
-|webdrvr|164|
-|nightwatch|26780|
-|karma|801080|
-|leadfoot|8398|
-|intern|8106|
-|testardo|227|
+|selenium-webdriver|404310|
+|browserstack-webdriver|2232|
+|webdriverio|8162|
+|wd|94631|
+|kommando|134|
+|webdrvr|165|
+|nightwatch|27284|
+|karma|824499|
+|leadfoot|8727|
+|intern|8471|
+|testardo|228|
+|mocha|1610641|
+|jscoverage|16158|
 
 ## Modules used
 
@@ -135,6 +143,17 @@ generated Tue Feb 10 23:39:29 CET 2015
 |[leadfoot](http://github.com/theintern/leadfoot)|1.2.1|Leadfoot. A JavaScript client library that brings cross-platform consistency to the Selenium WebDriver API.
 |[nodemod]()||
 |[source-map](https://github.com/mozilla/source-map)|0.1.33|Generates and consumes source maps
+
+### jscoverage
+
+|name|version|description
+|----|-------|-----------
+|[coffee-script](http://coffeescript.org)|1.9.0|Unfancy JavaScript
+|[debug](https://github.com/visionmedia/debug)|1.0.3|small debugging utility
+|[ejs](https://github.com/visionmedia/ejs)|1.0.0|Embedded JavaScript templates
+|[optimist](https://github.com/substack/node-optimist)|0.3.1|Light-weight option parsing with an argv hash. No optstrings attached.
+|[uglify-js](http://lisperator.net/uglifyjs)|2.4.15|JavaScript parser, mangler/compressor and beautifier toolkit
+|[xfs](https://github.com/fishbar/xfs)|0.1.8|extends fs module, easy way to manipulate file system, support both sync functions and async functions
 
 ### karma
 
@@ -237,67 +256,70 @@ generated Tue Feb 10 23:39:29 CET 2015
 
 ## Matrix
 
-|index|browserstack-webdriver|intern|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
-|-----|------------------------------|--------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
-|address||||X||||||
-|adm-zip|||||||X|||
-|archiver||||||||X|X|
-|async||||X||||X|X|
-|cabbie||||X||||||
-|chai||X||X||||||
-|chai-as-promised||||X||||||
-|chainit|||||||||X|
-|charm||X||||||||
-|chokidar|||X|||||||
-|coffee-script||||X||||||
-|colors|||X|||||||
-|connect|||X|||||||
-|css-parse|||||||||X|
-|css-value|||||||||X|
-|cucumber||||X||||||
-|deepmerge|||||||||X|
-|di|||X|||||||
-|diff||X||||||||
-|digdug||X||||||||
-|dojo||X|||X|||||
-|ejs||||||X||||
-|examples|||X|||||||
-|freeport||||X||||||
-|glob|||X|X||||||
-|graceful-fs|||X|||||||
-|grunt||||||X||||
-|http-proxy|||X|||||||
-|istanbul||X||||||||
-|jasmine-node||||X||||||
-|keep-alive-agent|X|||||||||
-|leadfoot||X||||||||
-|lodash|||X|X||||X||
-|log4js|||X|||||||
-|mime|||X|||||||
-|minimatch|||X|||X||||
-|mkpath||||||X||||
-|mocha||||X||||||
-|nesh||||X||||||
-|nodemod||X||||||||
-|optimist|||X|X||X||||
-|pragma-singleton|||||||||X|
-|q|||X|||||X|X|
-|request||||||||X|X|
-|rgb2hex|||||||||X|
-|rimraf|||X|||||||
-|saucelabs||||X||||||
-|selenium-webdriver||||X||||||
-|socket.io|||X|||||||
-|source-map||X|X|||||||
-|tmp|||||||X|||
-|underscore.string||||||||X||
-|url|||||||||X|
-|useragent|||X|||||||
-|vargs||||||||X||
-|wd||||X||||||
-|webdrvr||||X||||||
-|wgxpath|||||||||X|
-|xml2js|||||||X|||
+|index|browserstack-webdriver|intern|jscoverage|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
+|-----|------------------------------|--------------|------------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
+|address|||||X||||||
+|adm-zip||||||||X|||
+|archiver|||||||||X|X|
+|async|||||X||||X|X|
+|cabbie|||||X||||||
+|chai||X|||X||||||
+|chai-as-promised|||||X||||||
+|chainit||||||||||X|
+|charm||X|||||||||
+|chokidar||||X|||||||
+|coffee-script|||X||X||||||
+|colors||||X|||||||
+|connect||||X|||||||
+|css-parse||||||||||X|
+|css-value||||||||||X|
+|cucumber|||||X||||||
+|debug|||X||||||||
+|deepmerge||||||||||X|
+|di||||X|||||||
+|diff||X|||||||||
+|digdug||X|||||||||
+|dojo||X||||X|||||
+|ejs|||X||||X||||
+|examples||||X|||||||
+|freeport|||||X||||||
+|glob||||X|X||||||
+|graceful-fs||||X|||||||
+|grunt|||||||X||||
+|http-proxy||||X|||||||
+|istanbul||X|||||||||
+|jasmine-node|||||X||||||
+|keep-alive-agent|X||||||||||
+|leadfoot||X|||||||||
+|lodash||||X|X||||X||
+|log4js||||X|||||||
+|mime||||X|||||||
+|minimatch||||X|||X||||
+|mkpath|||||||X||||
+|mocha|||||X||||||
+|nesh|||||X||||||
+|nodemod||X|||||||||
+|optimist|||X|X|X||X||||
+|pragma-singleton||||||||||X|
+|q||||X|||||X|X|
+|request|||||||||X|X|
+|rgb2hex||||||||||X|
+|rimraf||||X|||||||
+|saucelabs|||||X||||||
+|selenium-webdriver|||||X||||||
+|socket.io||||X|||||||
+|source-map||X||X|||||||
+|tmp||||||||X|||
+|uglify-js|||X||||||||
+|underscore.string|||||||||X||
+|url||||||||||X|
+|useragent||||X|||||||
+|vargs|||||||||X||
+|wd|||||X||||||
+|webdrvr|||||X||||||
+|wgxpath||||||||||X|
+|xfs|||X||||||||
+|xml2js||||||||X|||
 
 
 ## Comparison
@@ -321,6 +343,7 @@ Subjective Rankings:
 | Standalone Server  				| 1						| 3			| 1			|
 | Documentation - Local run 		| 3 					| 3			| 1			|
 | REPL								| 0 					| 2			| ?			|		
+
 
 
 ### Standalone Server
@@ -425,5 +448,35 @@ Success withing 48 hours in not bad. Or ? Going to sleep (today).
 
 - How popular is intern on stackoverflow (propagated by SitePen, Dojo, Snover, .... team as support channel) - ha ha ha, just in case I do not include stats nor question nor answers.... but is is joke compared to community around something 'real'
 -->
+
+### Coverage
+
+
+#### Mocha
+
+- support of coverage reporting using 5 years old [tj's node-jscoverage](https://github.com/tj/node-jscoverage)
+- tj claims in README.txt that node module [jscoverage npm module](https://www.npmjs.com/package/jscoverage) DOES NOT WORK
+- [jscoverage npm module](https://www.npmjs.com/package/jscoverage)
+	- it has 16158 downloads in the last month 
+	- and git [gub repo seems more recent](https://github.com/fishbar/jscoverage/graphs/code-frequency) even if not active
+	- readme covers instruction how to test  
+- tj's version does not uninstall on OSX 10.9.5
+- a lot of outdated? infos on web, including this one http://seejohncode.com/2012/03/13/setting-up-mocha-jscoverage/
+
+[asking for help](https://groups.google.com/forum/#!topic/mochajs/zawMtAIb-A0)
+
+Finally I have decided to ignore mochas docs and tj's repo and tried very simple one minute setup and example:
+
+	npm install --save-dev jscoverage
+
+	mocha -r jscoverage -R spec tests/mocha/test.js
+
+	Coverage result
+	  ✓ tests/mocha/test.js	line[100%]  branch[100%]
+	  ⁍ lib/module.js	line[ 66%]  branch[100%]
+
+	  1 passing (5ms)
+
+	  
 
 

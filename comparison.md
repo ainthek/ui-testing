@@ -21,6 +21,7 @@ Subjective Rankings:
 | REPL								| 0 					| 2			| ?			|		
 
 
+
 ## Standalone Server
 How much manual work is needed to run 
 tests against browsers that require selenium-server-standalone-*.jar.
@@ -124,8 +125,35 @@ Success withing 48 hours in not bad. Or ? Going to sleep (today).
 - How popular is intern on stackoverflow (propagated by SitePen, Dojo, Snover, .... team as support channel) - ha ha ha, just in case I do not include stats nor question nor answers.... but is is joke compared to community around something 'real'
 -->
 
+## Coverage
 
 
+### Mocha
+
+- support of coverage reporting using 5 years old [tj's node-jscoverage](https://github.com/tj/node-jscoverage)
+- tj claims in README.txt that node module [jscoverage npm module](https://www.npmjs.com/package/jscoverage) DOES NOT WORK
+- [jscoverage npm module](https://www.npmjs.com/package/jscoverage)
+	- it has 16158 downloads in the last month 
+	- and git [gub repo seems more recent](https://github.com/fishbar/jscoverage/graphs/code-frequency) even if not active
+	- readme covers instruction how to test  
+- tj's version does not uninstall on OSX 10.9.5
+- a lot of outdated? infos on web, including this one http://seejohncode.com/2012/03/13/setting-up-mocha-jscoverage/
+
+[asking for help](https://groups.google.com/forum/#!topic/mochajs/zawMtAIb-A0)
+
+Finally I have decided to ignore mochas docs and tj's repo and tried very simple one minute setup and example:
+
+	npm install --save-dev jscoverage
+
+	mocha -r jscoverage -R spec tests/mocha/test.js
+
+	Coverage result
+	  ✓ tests/mocha/test.js	line[100%]  branch[100%]
+	  ⁍ lib/module.js	line[ 66%]  branch[100%]
+
+	  1 passing (5ms)
+
+	  
 
 
 

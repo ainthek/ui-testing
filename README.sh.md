@@ -27,6 +27,7 @@ Experiments and reviews of various ui testing frameworks
 	npm install --save-dev leadfoot
 	npm install --save-dev intern
 
+	npm install --save-dev jscoverage
 
 	git remote add origin https://github.com/ainthek/ui-testing.git
 
@@ -105,6 +106,11 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 generated $(date)
 
+Included here is not comparable, some of them are
+full stack things some of them are modules reused by others etc...
+
+However the numbers tell something (TODO: separate and chart)
+
 | module| downloads in the last month | 
 |------	|-----------------------------|
 $(
@@ -120,6 +126,9 @@ $(
 	npm_stats leadfoot;
 	npm_stats intern;
 	npm_stats testardo;
+	
+	npm_stats mocha;
+	npm_stats jscoverage;
 	)
 
 	echo "$s" | md-table '\;'

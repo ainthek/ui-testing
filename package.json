@@ -9,6 +9,7 @@
     "nightwatch": "^0.5.36",
     "selenium-webdriver": "^2.44.0",
     "wd": "^0.3.11",
-    "webdriverio": "^2.4.5"
+    "webdriverio": "^2.4.5",
+    "jscoverage": "^0.5.9"
   }
 }

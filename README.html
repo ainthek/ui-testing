@@ -30,6 +30,7 @@ npm install --save-dev karma
 npm install --save-dev leadfoot
 npm install --save-dev intern
 
+npm install --save-dev jscoverage
 
 git remote add origin https://github.com/ainthek/ui-testing.git
 
@@ -82,7 +83,9 @@ echo node_modules &gt; .gitignore</code></pre>
 <li><a href="https://www.npmjs.com/package/intern">https://www.npmjs.com/package/intern</a></li>
 </ul>
 <h2 id="npm-stats">NPM Stats</h2>
-<p>generated Tue Feb 10 23:39:29 CET 2015</p>
+<p>generated Wed Feb 11 10:36:31 CET 2015</p>
+<p>Included here is not comparable, some of them are full stack things some of them are modules reused by others etc...</p>
+<p>However the numbers tell something (TODO: separate and chart)</p>
 <table>
 <thead>
 <tr class="header">
@@ -93,47 +96,55 @@ echo node_modules &gt; .gitignore</code></pre>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">selenium-webdriver</td>
-<td style="text-align: left;">386337</td>
+<td style="text-align: left;">404310</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">browserstack-webdriver</td>
-<td style="text-align: left;">2157</td>
+<td style="text-align: left;">2232</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">webdriverio</td>
-<td style="text-align: left;">7764</td>
+<td style="text-align: left;">8162</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">wd</td>
-<td style="text-align: left;">92353</td>
+<td style="text-align: left;">94631</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">kommando</td>
-<td style="text-align: left;">133</td>
+<td style="text-align: left;">134</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">webdrvr</td>
-<td style="text-align: left;">164</td>
+<td style="text-align: left;">165</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">nightwatch</td>
-<td style="text-align: left;">26780</td>
+<td style="text-align: left;">27284</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">karma</td>
-<td style="text-align: left;">801080</td>
+<td style="text-align: left;">824499</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">leadfoot</td>
-<td style="text-align: left;">8398</td>
+<td style="text-align: left;">8727</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">intern</td>
-<td style="text-align: left;">8106</td>
+<td style="text-align: left;">8471</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">testardo</td>
-<td style="text-align: left;">227</td>
+<td style="text-align: left;">228</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">mocha</td>
+<td style="text-align: left;">1610641</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">jscoverage</td>
+<td style="text-align: left;">16158</td>
 </tr>
 </tbody>
 </table>
@@ -208,6 +219,48 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"><a href="https://github.com/mozilla/source-map">source-map</a></td>
 <td style="text-align: left;">0.1.33</td>
 <td style="text-align: left;">Generates and consumes source maps</td>
+</tr>
+</tbody>
+</table>
+<h3 id="jscoverage">jscoverage</h3>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">name</th>
+<th style="text-align: left;">version</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://coffeescript.org">coffee-script</a></td>
+<td style="text-align: left;">1.9.0</td>
+<td style="text-align: left;">Unfancy JavaScript</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/visionmedia/debug">debug</a></td>
+<td style="text-align: left;">1.0.3</td>
+<td style="text-align: left;">small debugging utility</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/visionmedia/ejs">ejs</a></td>
+<td style="text-align: left;">1.0.0</td>
+<td style="text-align: left;">Embedded JavaScript templates</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/substack/node-optimist">optimist</a></td>
+<td style="text-align: left;">0.3.1</td>
+<td style="text-align: left;">Light-weight option parsing with an argv hash. No optstrings attached.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://lisperator.net/uglifyjs">uglify-js</a></td>
+<td style="text-align: left;">2.4.15</td>
+<td style="text-align: left;">JavaScript parser, mangler/compressor and beautifier toolkit</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/fishbar/xfs">xfs</a></td>
+<td style="text-align: left;">0.1.8</td>
+<td style="text-align: left;">extends fs module, easy way to manipulate file system, support both sync functions and async functions</td>
 </tr>
 </tbody>
 </table>
@@ -621,6 +674,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <th style="text-align: left;">index</th>
 <th style="text-align: left;">browserstack-webdriver</th>
 <th style="text-align: left;">intern</th>
+<th style="text-align: left;">jscoverage</th>
 <th style="text-align: left;">karma</th>
 <th style="text-align: left;">kommando</th>
 <th style="text-align: left;">leadfoot</th>
@@ -636,6 +690,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -645,6 +700,7 @@ echo node_modules &gt; .gitignore</code></pre>
 </tr>
 <tr class="even">
 <td style="text-align: left;">adm-zip</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -664,11 +720,13 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;">X</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">async</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -684,6 +742,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -695,6 +754,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;">chai</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
@@ -708,6 +768,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -717,6 +778,7 @@ echo node_modules &gt; .gitignore</code></pre>
 </tr>
 <tr class="even">
 <td style="text-align: left;">chainit</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -738,9 +800,11 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">chokidar</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -755,6 +819,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;">coffee-script</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
@@ -767,6 +832,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;">colors</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -777,6 +843,7 @@ echo node_modules &gt; .gitignore</code></pre>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">connect</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -797,10 +864,12 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">css-value</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -816,6 +885,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -824,6 +894,19 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">debug</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">deepmerge</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -833,12 +916,14 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">di</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -847,7 +932,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">diff</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -858,8 +943,9 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">digdug</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -870,33 +956,37 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">dojo</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ejs</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">ejs</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">examples</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -907,23 +997,12 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">freeport</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">glob</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -932,7 +1011,21 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">glob</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">graceful-fs</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -943,31 +1036,33 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">grunt</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">http-proxy</td>
-<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">http-proxy</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">istanbul</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -978,9 +1073,11 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">jasmine-node</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -991,7 +1088,7 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">keep-alive-agent</td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
@@ -1002,8 +1099,9 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">leadfoot</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -1014,11 +1112,13 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">lodash</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
@@ -1027,21 +1127,10 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">log4js</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">mime</td>
-<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
@@ -1052,7 +1141,21 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">mime</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">minimatch</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -1063,20 +1166,35 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">mkpath</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">mocha</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">nesh</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1088,18 +1206,6 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">nesh</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">nodemod</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -1110,20 +1216,22 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">optimist</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">pragma-singleton</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1133,21 +1241,23 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">q</td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
 <td style="text-align: left;">X</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">q</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">request</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1156,10 +1266,11 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;">X</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">rgb2hex</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1169,12 +1280,14 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">rimraf</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1183,11 +1296,12 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">saucelabs</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1195,11 +1309,12 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">selenium-webdriver</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1207,9 +1322,23 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">socket.io</td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">source-map</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
@@ -1220,18 +1349,6 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">source-map</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">X</td>
-<td style="text-align: left;">X</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">tmp</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1239,12 +1356,27 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">uglify-js</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">underscore.string</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1265,10 +1397,12 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">useragent</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
@@ -1288,11 +1422,13 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">wd</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1305,6 +1441,7 @@ echo node_modules &gt; .gitignore</code></pre>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">webdrvr</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1325,10 +1462,25 @@ echo node_modules &gt; .gitignore</code></pre>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;">X</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">xfs</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">xml2js</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -1439,5 +1591,31 @@ kommando&gt;</code></pre>
 
 - How popular is intern on stackoverflow (propagated by SitePen, Dojo, Snover, .... team as support channel) - ha ha ha, just in case I do not include stats nor question nor answers.... but is is joke compared to community around something 'real'
 -->
+
+<h3 id="coverage">Coverage</h3>
+<h4 id="mocha">Mocha</h4>
+<ul>
+<li>support of coverage reporting using 5 years old <a href="https://github.com/tj/node-jscoverage">tj's node-jscoverage</a></li>
+<li>tj claims in README.txt that node module <a href="https://www.npmjs.com/package/jscoverage">jscoverage npm module</a> DOES NOT WORK</li>
+<li><a href="https://www.npmjs.com/package/jscoverage">jscoverage npm module</a>
+<ul>
+<li>it has 16158 downloads in the last month</li>
+<li>and git <a href="https://github.com/fishbar/jscoverage/graphs/code-frequency">gub repo seems more recent</a> even if not active</li>
+<li>readme covers instruction how to test<br /></li>
+</ul></li>
+<li>tj's version does not uninstall on OSX 10.9.5</li>
+<li>a lot of outdated? infos on web, including this one http://seejohncode.com/2012/03/13/setting-up-mocha-jscoverage/</li>
+</ul>
+<p><a href="https://groups.google.com/forum/#!topic/mochajs/zawMtAIb-A0">asking for help</a></p>
+<p>Finally I have decided to ignore mochas docs and tj's repo and tried very simple one minute setup and example:</p>
+<pre><code>npm install --save-dev jscoverage
+
+mocha -r jscoverage -R spec tests/mocha/test.js
+
+Coverage result
+  ✓ tests/mocha/test.js line[100%]  branch[100%]
+  ⁍ lib/module.js   line[ 66%]  branch[100%]
+
+  1 passing (5ms)</code></pre>
 </body>
 </html>
