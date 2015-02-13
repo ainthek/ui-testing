@@ -23,6 +23,7 @@ Experiments and reviews of various ui testing frameworks
 	npm install --save-dev intern
 
 	npm install --save-dev jscoverage
+	npm install --save-dev blanket
 
 	git remote add origin https://github.com/ainthek/ui-testing.git
 
@@ -99,7 +100,7 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 
 ## NPM Stats
 
-generated Wed Feb 11 10:36:31 CET 2015
+generated Fri Feb 13 17:22:59 CEST 2015
 
 Included here is not comparable, some of them are
 full stack things some of them are modules reused by others etc...
@@ -108,21 +109,30 @@ However the numbers tell something (TODO: separate and chart)
 
 | module| downloads in the last month | 
 |------	|-----------------------------|
-|selenium-webdriver|404310|
-|browserstack-webdriver|2232|
-|webdriverio|8162|
-|wd|94631|
-|kommando|134|
-|webdrvr|165|
-|nightwatch|27284|
-|karma|824499|
-|leadfoot|8727|
-|intern|8471|
-|testardo|228|
-|mocha|1610641|
-|jscoverage|16158|
+|selenium-webdriver|405110|
+|browserstack-webdriver|2278|
+|webdriverio|9339|
+|wd|95869|
+|kommando|121|
+|webdrvr|160|
+|nightwatch|28370|
+|karma|838058|
+|leadfoot|8835|
+|intern|8595|
+|testardo|209|
+|mocha|1629761|
+|jscoverage|16939|
+|blanket|47358|
 
 ## Modules used
+
+### blanket
+
+|name|version|description
+|----|-------|-----------
+|[esprima](http://esprima.org)|1.0.4|ECMAScript parsing infrastructure for multipurpose analysis
+|[falafel]()|0.1.6|transform the ast on a recursive walk
+|[xtend](https://github.com/Raynos/xtend)|2.1.2|extend like a boss
 
 ### browserstack-webdriver
 
@@ -144,17 +154,6 @@ However the numbers tell something (TODO: separate and chart)
 |[nodemod]()||
 |[source-map](https://github.com/mozilla/source-map)|0.1.33|Generates and consumes source maps
 
-### jscoverage
-
-|name|version|description
-|----|-------|-----------
-|[coffee-script](http://coffeescript.org)|1.9.0|Unfancy JavaScript
-|[debug](https://github.com/visionmedia/debug)|1.0.3|small debugging utility
-|[ejs](https://github.com/visionmedia/ejs)|1.0.0|Embedded JavaScript templates
-|[optimist](https://github.com/substack/node-optimist)|0.3.1|Light-weight option parsing with an argv hash. No optstrings attached.
-|[uglify-js](http://lisperator.net/uglifyjs)|2.4.15|JavaScript parser, mangler/compressor and beautifier toolkit
-|[xfs](https://github.com/fishbar/xfs)|0.1.8|extends fs module, easy way to manipulate file system, support both sync functions and async functions
-
 ### karma
 
 |name|version|description
@@ -162,7 +161,7 @@ However the numbers tell something (TODO: separate and chart)
 |[chokidar](https://github.com/paulmillr/chokidar)|0.12.6|A neat wrapper around node.js fs.watch / fs.watchFile / fsevents.
 |[colors](https://github.com/Marak/colors.js)|0.6.2|get colors in your node.js console like what
 |[connect](https://github.com/senchalabs/connect)|2.26.6|High performance middleware framework
-|[di](https://github.com/vojtajina/node-di)|0.0.1|Dependency Injection for Node.js. Heavily inspired by AngularJS.
+|[di]()|0.0.1|Dependency Injection for Node.js. Heavily inspired by AngularJS.
 |[glob](https://github.com/isaacs/node-glob)|3.2.11|a little globber
 |[graceful-fs](https://github.com/isaacs/node-graceful-fs)|2.0.3|A drop-in replacement for fs, making various improvements.
 |[http-proxy-examples]()|0.0.0|packages required to run the examples
@@ -182,7 +181,7 @@ However the numbers tell something (TODO: separate and chart)
 
 |name|version|description
 |----|-------|-----------
-|[address](https://github.com/fengmk2/address)|0.0.3|Get current machine IP, MAC and DNS servers.
+|[address]()|0.0.3|Get current machine IP, MAC and DNS servers.
 |[async](https://github.com/caolan/async)|0.8.0|Higher-order functions and common patterns for asynchronous code
 |[cabbie](https://github.com/ForbesLindesay/cabbie)|0.0.9|A webdriver client
 |[chai-as-promised](https://github.com/domenic/chai-as-promised)|4.1.1|Extends Chai with assertions about promises.
@@ -192,6 +191,7 @@ However the numbers tell something (TODO: separate and chart)
 |[freeport](https://github.com/daaku/nodejs-freeport)|1.0.4|Find a free port.
 |[glob](https://github.com/isaacs/node-glob)|3.2.11|a little globber
 |[jasmine-node](https://github.com/mhevery/jasmine-node)|1.14.5|DOM-less simple JavaScript BDD testing framework for Node
+|[leadfoot](http://github.com/theintern/leadfoot)|1.2.1|Leadfoot. A JavaScript client library that brings cross-platform consistency to the Selenium WebDriver API.
 |[lodash](http://lodash.com/)|2.4.1|A utility library delivering consistency, customization, performance, & extras.
 |[mocha](https://github.com/visionmedia/mocha)|1.18.2|simple, flexible, fun test framework
 |[nesh](http://danielgtaylor.github.io/nesh/)|1.5.1|An enhanced, extensible shell for Node.js
@@ -245,7 +245,7 @@ However the numbers tell something (TODO: separate and chart)
 |[async](https://github.com/caolan/async)|0.9.0|Higher-order functions and common patterns for asynchronous code
 |[chainit](https://github.com/vvo/chainit)|2.1.1|Turn an asynchronous JavaScript api into an asynchronous chainable JavaScript api.
 |[css-parse](https://github.com/visionmedia/css-parse)|1.7.0|CSS parser
-|[css-value](https://github.com/visionmedia/css-value)|0.0.1|CSS value parser
+|[css-value]()|0.0.1|CSS value parser
 |[deepmerge](https://github.com/nrf110/deepmerge)|0.2.7|A library for deep (recursive) merging of Javascript objects
 |[pragma-singleton](https://github.com/pragma-dudes/pragma-singleton)|1.0.3|Singleton design pattern implementation which easy to use
 |[q](https://github.com/kriskowal/q)|1.1.2|A library for promises (CommonJS/Promises/A,B,D)
@@ -256,41 +256,42 @@ However the numbers tell something (TODO: separate and chart)
 
 ## Matrix
 
-|index|browserstack-webdriver|intern|jscoverage|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
-|-----|------------------------------|--------------|------------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
+|index|blanket|browserstack-webdriver|intern|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
+|-----|---------------|------------------------------|--------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
 |address|||||X||||||
 |adm-zip||||||||X|||
 |archiver|||||||||X|X|
 |async|||||X||||X|X|
 |cabbie|||||X||||||
-|chai||X|||X||||||
-|chai-as-promised|||||X||||||
-|chainit||||||||||X|
-|charm||X|||||||||
-|chokidar||||X|||||||
-|coffee-script|||X||X||||||
+|coffee-script|||||X||||||
 |colors||||X|||||||
 |connect||||X|||||||
 |css-parse||||||||||X|
 |css-value||||||||||X|
 |cucumber|||||X||||||
-|debug|||X||||||||
 |deepmerge||||||||||X|
 |di||||X|||||||
-|diff||X|||||||||
-|digdug||X|||||||||
-|dojo||X||||X|||||
-|ejs|||X||||X||||
+|diff|||X||||||||
+|digdug|||X||||||||
+|dojo|||X|||X|||||
+|ejs|||||||X||||
+|esprima|X||||||||||
 |examples||||X|||||||
+|falafel|X||||||||||
 |freeport|||||X||||||
 |glob||||X|X||||||
 |graceful-fs||||X|||||||
 |grunt|||||||X||||
 |http-proxy||||X|||||||
-|istanbul||X|||||||||
+|chai|||X||X||||||
+|chai-as-promised|||||X||||||
+|chainit||||||||||X|
+|charm|||X||||||||
+|chokidar||||X|||||||
+|istanbul|||X||||||||
 |jasmine-node|||||X||||||
-|keep-alive-agent|X||||||||||
-|leadfoot||X|||||||||
+|keep-alive-agent||X|||||||||
+|leadfoot|||X||X||||||
 |lodash||||X|X||||X||
 |log4js||||X|||||||
 |mime||||X|||||||
@@ -298,8 +299,8 @@ However the numbers tell something (TODO: separate and chart)
 |mkpath|||||||X||||
 |mocha|||||X||||||
 |nesh|||||X||||||
-|nodemod||X|||||||||
-|optimist|||X|X|X||X||||
+|nodemod|||X||||||||
+|optimist||||X|X||X||||
 |pragma-singleton||||||||||X|
 |q||||X|||||X|X|
 |request|||||||||X|X|
@@ -308,9 +309,8 @@ However the numbers tell something (TODO: separate and chart)
 |saucelabs|||||X||||||
 |selenium-webdriver|||||X||||||
 |socket.io||||X|||||||
-|source-map||X||X|||||||
+|source-map|||X|X|||||||
 |tmp||||||||X|||
-|uglify-js|||X||||||||
 |underscore.string|||||||||X||
 |url||||||||||X|
 |useragent||||X|||||||
@@ -318,8 +318,8 @@ However the numbers tell something (TODO: separate and chart)
 |wd|||||X||||||
 |webdrvr|||||X||||||
 |wgxpath||||||||||X|
-|xfs|||X||||||||
 |xml2js||||||||X|||
+|xtend|X||||||||||
 
 
 ## Comparison
@@ -477,6 +477,10 @@ Finally I have decided to ignore mochas docs and tj's repo and tried very simple
 
 	  1 passing (5ms)
 
-	  
+After trying tests on my other Win (MINGW) machine, neeeded to [quickly patch
+jscoverage](https://github.com/ainthek/jscoverage/commit/3fcca79f3bf684fbf617f9ddb950c1d951ca9481).
+
+And also received link from boneskull about  [blanket](https://www.npmjs.com/package/blanket), 
+so will try it.
 
 

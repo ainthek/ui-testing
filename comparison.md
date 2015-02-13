@@ -153,8 +153,11 @@ Finally I have decided to ignore mochas docs and tj's repo and tried very simple
 
 	  1 passing (5ms)
 
-	  
+After trying tests on my other Win (MINGW) machine, neeeded to [quickly patch
+jscoverage](https://github.com/ainthek/jscoverage/commit/3fcca79f3bf684fbf617f9ddb950c1d951ca9481).
 
+And also received link from boneskull about  [blanket](https://www.npmjs.com/package/blanket), 
+so will try it.
 
 
 

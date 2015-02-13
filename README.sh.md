@@ -28,6 +28,7 @@ Experiments and reviews of various ui testing frameworks
 	npm install --save-dev intern
 
 	npm install --save-dev jscoverage
+	npm install --save-dev blanket
 
 	git remote add origin https://github.com/ainthek/ui-testing.git
 
@@ -128,7 +129,10 @@ $(
 	npm_stats testardo;
 	
 	npm_stats mocha;
+	
 	npm_stats jscoverage;
+	npm_stats blanket;
+	
 	)
 
 	echo "$s" | md-table '\;'
