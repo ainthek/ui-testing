@@ -1,10 +1,10 @@
 {
   "name": "ui-testing",
   "devDependencies": {
-    "blanket": "^1.1.6",
+    "blanket": "git+https://github.com/ainthek/blanket.git",
     "browserstack-webdriver": "^2.41.1",
     "intern": "^2.2.2",
-    "jscoverage": "^0.5.9",
+    "jscoverage": "git+https://github.com/ainthek/jscoverage.git#fix-windows",
     "karma": "^0.12.31",
     "kommando": "^1.0.0",
     "leadfoot": "^1.2.1",

@@ -101,7 +101,16 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 - <http://theintern.io>
 - <https://www.npmjs.com/package/intern>
 
+# blanket
+A seamless JavaScript code coverage library.
 
+- <https://www.npmjs.com/package/blanket>
+
+# jscoverage
+a javascript coverage tool, can be used in node dev, and browser side js dev
+
+- <https://www.npmjs.com/package/jscoverage>
+- [Quick Windows (MINGW) Fix](https://github.com/ainthek/jscoverage)
 
 ## NPM Stats
 
@@ -129,7 +138,7 @@ $(
 	npm_stats testardo;
 	
 	npm_stats mocha;
-	
+
 	npm_stats jscoverage;
 	npm_stats blanket;
 	

@@ -96,11 +96,20 @@ Its functional testing capabilities can even be used to test non-JavaScript Web 
 - <http://theintern.io>
 - <https://www.npmjs.com/package/intern>
 
+# blanket
+A seamless JavaScript code coverage library.
 
+- <https://www.npmjs.com/package/blanket>
+
+# jscoverage
+a javascript coverage tool, can be used in node dev, and browser side js dev
+
+- <https://www.npmjs.com/package/jscoverage>
+- [Quick Windows (MINGW) Fix](https://github.com/ainthek/jscoverage)
 
 ## NPM Stats
 
-generated Fri Feb 13 17:22:59 CEST 2015
+generated Mon Feb 16 09:52:00 CEST 2015
 
 Included here is not comparable, some of them are
 full stack things some of them are modules reused by others etc...
@@ -109,20 +118,20 @@ However the numbers tell something (TODO: separate and chart)
 
 | module| downloads in the last month | 
 |------	|-----------------------------|
-|selenium-webdriver|405110|
-|browserstack-webdriver|2278|
-|webdriverio|9339|
-|wd|95869|
-|kommando|121|
-|webdrvr|160|
-|nightwatch|28370|
-|karma|838058|
-|leadfoot|8835|
-|intern|8595|
-|testardo|209|
-|mocha|1629761|
-|jscoverage|16939|
-|blanket|47358|
+|selenium-webdriver|376786|
+|browserstack-webdriver|2055|
+|webdriverio|9485|
+|wd|89889|
+|kommando|132|
+|webdrvr|163|
+|nightwatch|24375|
+|karma|797169|
+|leadfoot|8162|
+|intern|7937|
+|testardo|211|
+|mocha|1553315|
+|jscoverage|16533|
+|blanket|45635|
 
 ## Modules used
 
@@ -130,9 +139,9 @@ However the numbers tell something (TODO: separate and chart)
 
 |name|version|description
 |----|-------|-----------
-|[esprima](http://esprima.org)|1.0.4|ECMAScript parsing infrastructure for multipurpose analysis
-|[falafel]()|0.1.6|transform the ast on a recursive walk
-|[xtend](https://github.com/Raynos/xtend)|2.1.2|extend like a boss
+|[esprima](http://esprima.org)|1.2.4|ECMAScript parsing infrastructure for multipurpose analysis
+|[falafel]()|0.3.1|transform the ast on a recursive walk
+|[xtend](https://github.com/Raynos/xtend)|3.0.0|extend like a boss
 
 ### browserstack-webdriver
 
@@ -153,6 +162,18 @@ However the numbers tell something (TODO: separate and chart)
 |[leadfoot](http://github.com/theintern/leadfoot)|1.2.1|Leadfoot. A JavaScript client library that brings cross-platform consistency to the Selenium WebDriver API.
 |[nodemod]()||
 |[source-map](https://github.com/mozilla/source-map)|0.1.33|Generates and consumes source maps
+
+### jscoverage
+
+|name|version|description
+|----|-------|-----------
+|[coffee-script](http://coffeescript.org)|1.9.0|Unfancy JavaScript
+|[debug](https://github.com/visionmedia/debug)|1.0.3|small debugging utility
+|[ejs](https://github.com/visionmedia/ejs)|1.0.0|Embedded JavaScript templates
+|[escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp)|1.0.2|Escape RegExp special characters
+|[optimist](https://github.com/substack/node-optimist)|0.3.1|Light-weight option parsing with an argv hash. No optstrings attached.
+|[uglify-js](http://lisperator.net/uglifyjs)|2.4.15|JavaScript parser, mangler/compressor and beautifier toolkit
+|[xfs](https://github.com/fishbar/xfs)|0.1.8|extends fs module, easy way to manipulate file system, support both sync functions and async functions
 
 ### karma
 
@@ -256,70 +277,74 @@ However the numbers tell something (TODO: separate and chart)
 
 ## Matrix
 
-|index|blanket|browserstack-webdriver|intern|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
-|-----|---------------|------------------------------|--------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
-|address|||||X||||||
-|adm-zip||||||||X|||
-|archiver|||||||||X|X|
-|async|||||X||||X|X|
-|cabbie|||||X||||||
-|coffee-script|||||X||||||
-|colors||||X|||||||
-|connect||||X|||||||
-|css-parse||||||||||X|
-|css-value||||||||||X|
-|cucumber|||||X||||||
-|deepmerge||||||||||X|
-|di||||X|||||||
-|diff|||X||||||||
-|digdug|||X||||||||
-|dojo|||X|||X|||||
-|ejs|||||||X||||
-|esprima|X||||||||||
-|examples||||X|||||||
-|falafel|X||||||||||
-|freeport|||||X||||||
-|glob||||X|X||||||
-|graceful-fs||||X|||||||
-|grunt|||||||X||||
-|http-proxy||||X|||||||
-|chai|||X||X||||||
-|chai-as-promised|||||X||||||
-|chainit||||||||||X|
-|charm|||X||||||||
-|chokidar||||X|||||||
-|istanbul|||X||||||||
-|jasmine-node|||||X||||||
-|keep-alive-agent||X|||||||||
-|leadfoot|||X||X||||||
-|lodash||||X|X||||X||
-|log4js||||X|||||||
-|mime||||X|||||||
-|minimatch||||X|||X||||
-|mkpath|||||||X||||
-|mocha|||||X||||||
-|nesh|||||X||||||
-|nodemod|||X||||||||
-|optimist||||X|X||X||||
-|pragma-singleton||||||||||X|
-|q||||X|||||X|X|
-|request|||||||||X|X|
-|rgb2hex||||||||||X|
-|rimraf||||X|||||||
-|saucelabs|||||X||||||
-|selenium-webdriver|||||X||||||
-|socket.io||||X|||||||
-|source-map|||X|X|||||||
-|tmp||||||||X|||
-|underscore.string|||||||||X||
-|url||||||||||X|
-|useragent||||X|||||||
-|vargs|||||||||X||
-|wd|||||X||||||
-|webdrvr|||||X||||||
-|wgxpath||||||||||X|
-|xml2js||||||||X|||
-|xtend|X||||||||||
+|index|blanket|browserstack-webdriver|intern|jscoverage|karma|kommando|leadfoot|nightwatch|selenium-webdriver|wd|webdriverio|
+|-----|---------------|------------------------------|--------------|------------------|-------------|----------------|----------------|------------------|--------------------------|----------|-------------------|
+|address||||||X||||||
+|adm-zip|||||||||X|||
+|archiver||||||||||X|X|
+|async||||||X||||X|X|
+|cabbie||||||X||||||
+|coffee-script||||X||X||||||
+|colors|||||X|||||||
+|connect|||||X|||||||
+|css-parse|||||||||||X|
+|css-value|||||||||||X|
+|cucumber||||||X||||||
+|debug||||X||||||||
+|deepmerge|||||||||||X|
+|di|||||X|||||||
+|diff|||X|||||||||
+|digdug|||X|||||||||
+|dojo|||X||||X|||||
+|ejs||||X||||X||||
+|escape-string-regexp||||X||||||||
+|esprima|X|||||||||||
+|examples|||||X|||||||
+|falafel|X|||||||||||
+|freeport||||||X||||||
+|glob|||||X|X||||||
+|graceful-fs|||||X|||||||
+|grunt||||||||X||||
+|http-proxy|||||X|||||||
+|chai|||X|||X||||||
+|chai-as-promised||||||X||||||
+|chainit|||||||||||X|
+|charm|||X|||||||||
+|chokidar|||||X|||||||
+|istanbul|||X|||||||||
+|jasmine-node||||||X||||||
+|keep-alive-agent||X||||||||||
+|leadfoot|||X|||X||||||
+|lodash|||||X|X||||X||
+|log4js|||||X|||||||
+|mime|||||X|||||||
+|minimatch|||||X|||X||||
+|mkpath||||||||X||||
+|mocha||||||X||||||
+|nesh||||||X||||||
+|nodemod|||X|||||||||
+|optimist||||X|X|X||X||||
+|pragma-singleton|||||||||||X|
+|q|||||X|||||X|X|
+|request||||||||||X|X|
+|rgb2hex|||||||||||X|
+|rimraf|||||X|||||||
+|saucelabs||||||X||||||
+|selenium-webdriver||||||X||||||
+|socket.io|||||X|||||||
+|source-map|||X||X|||||||
+|tmp|||||||||X|||
+|uglify-js||||X||||||||
+|underscore.string||||||||||X||
+|url|||||||||||X|
+|useragent|||||X|||||||
+|vargs||||||||||X||
+|wd||||||X||||||
+|webdrvr||||||X||||||
+|wgxpath|||||||||||X|
+|xfs||||X||||||||
+|xml2js|||||||||X|||
+|xtend|X|||||||||||
 
 
 ## Comparison
@@ -482,5 +507,23 @@ jscoverage](https://github.com/ainthek/jscoverage/commit/3fcca79f3bf684fbf617f9d
 
 And also received link from boneskull about  [blanket](https://www.npmjs.com/package/blanket), 
 so will try it.
+
+### Blanket
+Testing [blanket](https://www.npmjs.com/package/blanket) on windows (MINGW) ends with no conevarge stats at all,
+quick look at the node+mocha detection reveals why:
+
+	if (args[0] === 'node' &&
+        args[1].indexOf(join('node_modules','mocha','bin')) > -1 &&
+        blanketRequired){
+
+        //using mocha cli
+        module.exports = blanketNode(null,true);
+
+
+So probably I'm going again for Fork-reconfigure-package.json-Fix-Pull-Request-Hope cycle ? 
+Same as with jscoverage ?
+
+Not today ;-(
+	
 
 

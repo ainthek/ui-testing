@@ -159,6 +159,24 @@ jscoverage](https://github.com/ainthek/jscoverage/commit/3fcca79f3bf684fbf617f9d
 And also received link from boneskull about  [blanket](https://www.npmjs.com/package/blanket), 
 so will try it.
 
+## Blanket
+Testing [blanket](https://www.npmjs.com/package/blanket) on windows (MINGW) ends with no conevarge stats at all,
+quick look at the node+mocha detection reveals why:
+
+	if (args[0] === 'node' &&
+        args[1].indexOf(join('node_modules','mocha','bin')) > -1 &&
+        blanketRequired){
+
+        //using mocha cli
+        module.exports = blanketNode(null,true);
+
+
+So probably I'm going again for Fork-reconfigure-package.json-Fix-Pull-Request-Hope cycle ? 
+Same as with jscoverage ?
+
+Not today ;-(
+	
+
 
 
 
