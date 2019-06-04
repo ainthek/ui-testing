@@ -1,0 +1,29 @@
+{
+  "name": "ui-testing",
+  "version": "1.0.0",
+  "description": "Experiments and reviews of various ui testing frameworks",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.3.1",
+    "nightwatch": "^1.1.11",
+    "protractor": "^5.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainthek/ui-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ainthek/ui-testing/issues"
+  },
+  "homepage": "https://github.com/ainthek/ui-testing#readme"
+}

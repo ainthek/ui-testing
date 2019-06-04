@@ -31,8 +31,11 @@ for info about changes.
 
 So we end up with half players out of game, just after 4 years.
 
-## 2019 players
+## 2019 choices
 
+- selenium-webdriver
+- nightwatch
+- webdriver.io
 - protractor
 - cypress
 - testcafe
@@ -41,6 +44,37 @@ So we end up with half players out of game, just after 4 years.
 - puppeteer
 
 <https://www.npmtrends.com/nightwatch-vs-webdriverio-vs-cypress-vs-testcafe>
+
+## 2019 news
+
+- Json Wire is OBSOLTERE, now we have W3C WebDriver, W3C Recommendation 05 June 2018 <http://www.w3.org/TR/webdriver/>
+- ...
+- Chrome driver is now supported as npm package, npm install chromedriver --save-dev 
+
+### nightwatch
+
+- uses custom runer ;-(
+- can use mocha as runner, comes bundled with 5.2 while latest mocha is 6.0 ;-(
+- but can be used with "standard mocha" with some boiler plate code ;-)
+- async/await is available (as beta)
+- custom commands <https://nightwatchjs.org/guide#extending-nightwatch>
+
+### cypress
+<https://crossbrowsertesting.com/blog/test-automation/selenium-vs-cypress/>
+
+### webdriver.io
+- custom commands <https://webdriver.io/docs/customcommands.html>
+
+
+### Compared
+
+- <https://stackoverflow.com/questions/35981605/what-is-the-difference-between-nightwatchjs-and-webdriverio>
+- <https://crossbrowsertesting.com/blog/test-automation/selenium-vs-cypress/>
+- <https://www.gangboard.com/blog/selenium-vs-protractor/>
+
+
+## OCR
+- <https://dzone.com/articles/extending-selenium-with-image-recognition-1>
 
 # ui-testing 2015
 
