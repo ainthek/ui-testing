@@ -5,8 +5,44 @@
 
 echo "
 
+# ui-testing 2019
 
-# ui-testing
+After 4 years I have returned to the same mission and it is time
+to summarize current stutus. In the start of year 2015 I have reviewed 11 frameworks
+that I considered significant players, so lets see what is the status now.
+Old review is here on 2015 branch. 
+
+Quick look at npmtrends and statistics:
+
+<https://www.npmtrends.com/selenium-webdriver-vs-browserstack-webdriver-vs-wd-vs-webdriverio-vs-kommando-vs-nightwatch-vs-karma-vs-leadfoot-vs-intern-vs-jscoverage>
+
+Discontinued frameworks are:
+
+- browserstack-webdriver
+- kommando
+- blanket
+- jscoverage
+
+
+Wd stayed stucked with Selenium 2 version and JsonWireProtocol (which is obsolete) 
+and now we have selenium version 4 
+see <https://techbeacon.com/app-dev-testing/selenium-30-40-50-roadmap-finally-unveiled> 
+for info about changes.
+
+So we end up with half players out of game, just after 4 years.
+
+## 2019 players
+
+- protractor
+- cypress
+- testcafe
+- ....
+
+- puppeteer
+
+<https://www.npmtrends.com/nightwatch-vs-webdriverio-vs-cypress-vs-testcafe>
+
+# ui-testing 2015
 
 Experiments and reviews of various ui testing frameworks
 
